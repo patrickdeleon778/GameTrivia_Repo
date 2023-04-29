@@ -1,0 +1,1639 @@
+{
+    "gameboy": [
+        {
+            "Q": "'Super Mario Advance' was a launch title for the GBA, but what older game is it a remake of?",
+            "a1": "Super Mario World",
+            "a2": "Super Mario Brothers 2",
+            "a3": "Super Mario Brothers 3",
+            "a4": "Super Mario Brothers",
+            "c": "Super Mario Brothers 2"
+        },
+        {
+            "Q": "How many cups are there in the grand prix mode of 'Mario Kart: Super Circuit'?",
+            "a1": "5",
+            "a2": "10",
+            "a3": "4",
+            "a4": "8",
+            "c": "10"
+        },
+        {
+            "Q": "In 'Golden Sun' which character joins your group at Mercury Lighthouse?",
+            "a1": "Piers",
+            "a2": "Alex",
+            "a3": "Mia",
+            "a4": "Jenna",
+            "c": "Mia"
+        },
+        {
+            "Q": "In the first 'Advance Wars' two units have a vision range of 5 spaces. One is the Recon Unit. What other unit shares this large vision range?",
+            "a1": "Missile Launcher",
+            "a2": "Submarine",
+            "a3": "Rockets",
+            "a4": "Fighter Jets",
+            "c": "Missile Launcher"
+        },
+        {   
+            "Q": "In 'Mario & Luigi: Superstar Saga' what special effect happens when Luigi uses his hammer on Mario, once you have the special hammer skills?",
+            "a1":"Nothing",
+            "a2":"Mario gets buried in the ground",
+            "a3":"Mario shrinks to half-size",
+            "a4":"Mario springs skyward",
+            "c": "Mario shrinks to half-size"
+        },
+        {
+            "Q": " Which of these is NOT a transformation for Kirby in 'Kirby: Nightmare in Dream Land'?",
+            "a1":"Psychic",
+            "a2":"Laser",
+            "a3":"Fire",
+            "a4":"Wheel",
+            "c":"Psychic"
+        },
+        {
+            "Q": "In 'Final Fantasy Tactics Advance' the occupation of Blue Mages belong to which type?",
+            "a1":"Viera",
+            "a2":"Human",
+            "a3":"Moogle",
+            "a4":"Bangaa",
+            "c":"Human"
+        },
+        {
+            "Q": "In 'Legend of Zelda: A Link to the Past' what kind of arrows are needed to defeat Ganon?",
+            "a1":"Light Arrows",
+            "a2":"Silver Arrows",
+            "a3":"Hero Arrows",
+            "a4":"Golden Arrows",
+            "c":"Silver Arrows"
+        },
+        {
+            "Q": "In 'F-Zero Maximum Velocity' which of these vehicles is not in this game?",
+            "a1":"Fire Ball",
+            "a2":"Jet Vermillion",
+            "a3":"Black Bull",
+            "a4":"Wind Walker",
+            "c":"Black Bull"
+        },
+        {
+            "Q": "Which of these Gameboy Colour games had a secret area that only opened up when it was played on the Gameboy Advance?",
+            "a1":"Legend of Zelda: Oracle of Seasons",
+            "a2":"Super Mario Brothers Deluxe",
+            "a3": "Warioland 3",
+            "a4":"Pokémon Crystal",
+            "c":"Legend of Zelda: Oracle of Seasons"
+        },
+        {
+            "Q": "Which of these Pokémon does not appear in 'Pokémon Sapphire'?",
+            "a1":"Nosepass",
+            "a2":"Luvdisc",
+            "a3":"Larvitar",
+            "a4":"Sableye",
+            "c":"Larvitar"
+        },
+        {
+            "Q": "The NES Classics' game 'Ice Climber' features two ice climbers wearing what colour clothing?",
+            "a1":"Red and Green",
+            "a2":"Pink and Blue",
+            "a3":"Orange and Yellow",
+            "a4":"White and Purple",
+            "c":"Pink and Blue"
+        },
+        {
+            "Q": "In the first western Fire Emblem GBA game (number 7 in Japan) which two characters automatically have an A grade relationship?",
+            "a1":"Eliwood and Ninian",
+            "a2":"Pent and Louise",
+            "a3":"Hector and Lyndis",
+            "a4":"Sain and Kent",
+            "c":"Pent and Louise"
+        },
+        {
+            "Q": "Which Pokemon can eventually evolve into an Alakazam?",
+            "a1":"Clefairy",
+            "a2":"Teddiursa",
+            "a3":"Abra",
+            "a4":"Quaxly",
+            "c":"Abra"
+        },
+        {
+            "Q": "Which of the following games was NOT a launch title when the Nintendo Game Boy was released in North America?",
+            "a1":"Kirby's Dream Land",
+            "a2":"Super Mario Land",
+            "a3":"Tennis",
+            "a4":"Tetris",
+            "c":"Kirby's Dream Land"
+        },
+        {
+            "Q": "Borderlands is filled with many bosses and semi-bosses. Who is the first boss you encounter in the game?",
+            "a1":"Mad Mel",
+            "a2":"Sledge",
+            "a3":"Nine-Toes",
+            "a4":"Bone Shredder",
+            "c":"Nine-Toes"
+        },
+        {
+            "Q": "There are many guns in 'Borderlands'. Which gun type is not a usable gun in the game?",
+            "a1":"Revolver",
+            "a2":"SMG",
+            "a3":"LMG",
+            "a4":"Missile Launcher",
+            "c":"LMG"
+        },
+        {
+            "Q": "Each character in 'Borderlands' uses a unique melee weapon. Mordecai uses a machete, Roland uses a knife, and Lilith uses her powers. What does Brick use normally?",
+            "a1":"An axe",
+            "a2":"His fists",
+            "a3":"A pipe",
+            "a4":"His weapon",
+            "c":"A pipe"
+        },
+        {
+            "Q": "Boss fights usually have very strong and deadly character for you to fight. Who is the final boss you face in the Borderlands story?",
+            "a1":"The Warrior",
+            "a2":"MothRakk",
+            "a3":"Skagzilla",
+            "a4":"The Destroyer",
+            "c":"The Destroyer"
+        },
+        {
+            "Q": "What is the name of Mordecai's pet bird?",
+            "a1":"Blodwing",
+            "a2":"Bloodwing",
+            "a3":"Hawkeye",
+            "a4":"Birdo",
+            "c":"Bloodwing"
+        },
+        {
+            "Q": "Which character says 'I might not have a med-school degree, but when you get shot you'll be happy I'm here.'?",
+            "a1":"Dr. Ned",
+            "a2":"Scooter",
+            "a3":"Marcus Kincaid",
+            "a4":"Dr. Zed",
+            "c":"Dr. Zed"
+        },
+        {
+            "Q": "Who of the following characters sells things to you?",
+            "a1":"All of these",
+            "a2":"Marcus Kincaid, Dr Zed and Scooter",
+            "a3":"Marcus Kincaid, Dr Zed and Crazy Earl",
+            "a4":"Marcus Kincaid and Dr Zed",
+            "c":"Marcus Kincaid, Dr Zed and Crazy Earl"
+        },
+        {
+            "Q": "Who is the first voice you hear?",
+            "a1":"Zero",
+            "a2":"Rhys",
+            "a3":"Marcus",
+            "a4":"Fiona",
+            "c":"Marcus"
+        },
+        {
+            "Q": "Which character lost his wife, leg and eyesight to Scar?",
+            "a1":"Dr. Patricia Tannis",
+            "a2":"Colonel T. Zarpedon",
+            "a3":"Angel",
+            "a4":"T.K. Baha",
+            "c":"T.K. Baha"
+        },
+        {
+            "Q": "Only buy the best... if the Vault is real, you'll be able to afford it!'One of the characters players interact with the most when playing 'Borderlands' is the weapons dealer. Whether in person or indirectly through his weapon and ammunition vending machines, players hear this character's voice a lot. Who is it?",
+            "a1":"Marcus Kincaid",
+            "a2":"Crazy Earl",
+            "a3":"Taylor Kobb",
+            "a4":"Chuck Durder",
+            "c":"Marcus Kincaid"
+        },
+        {
+            "Q": "Nothing like a challenging kill.'There are four player characters in the game, but my favorite is the Hunter, who specializes in sniper rifles to attack from a distance and pistols when enemies get closer. The Hunter's Action Skill is Bloodwing, a falcon-like pet that can attack enemies. What is the Hunter's name?",
+            "a1":"Roland",
+            "a2":"Lilith",
+            "a3":"Mordecai",
+            "a4":"Brick",
+            "c":"Mordecai"
+        },
+        {
+            "Q": "Wow! You're not dead?'These robots are found just about everywhere. Many are damaged, and repairing them can yield a good reward. Most are friendly and harmless, until one becomes an Interplanetary Ninja Assassin and attempt to lead a Robot Revolution to kill all the 'fleshbags.' What is the official designation for these robots?",
+            "a1":"4-LOM",
+            "a2":"CL4P-TP",
+            "a3":"EV-9D9",
+            "a4":"I-5YQ",
+            "c":"CL4P-TP"
+        },
+        {
+            "Q": "Hmm... smells like off-worlder. How are you liking our planet anyways?'One unfortunate character in the game starts off blind and missing a leg, and is later killed by bandits. If that wasn't enough, he's later turned into a zombie in one of the game's add-ons. Who is it?",
+            "a1":"Stance Von Kofsky",
+            "a2":"Rade Zayben",
+            "a3":"T.K. Baha",
+            "a4":"Ernest Whitting",
+            "c":"T.K. Baha"
+        },
+        {
+            "Q": "Not going away, huh? Must be a bounty hunter!'One enemy boss in the game is this bandit leader, more known for his strength than his brains. For example, his shotgun is named 'Shotgun' and his hammer is named 'Hammer'. Who is this 'creative' bad guy?",
+            "a1":"Bone Head",
+            "a2":"Sledge",
+            "a3":"Nine Toes",
+            "a4":"One-Eyed Jack",
+            "c":"Sledge"
+        },
+        {
+            "Q": "This is where the cars live! Get you one!'The vehicles in the game and the Catch-A-Ride system are the responsibility of this mechanic, who has a very distinct way of speaking. But even though he's responsible, he does seem to need a lot of help from the players to find parts and make repairs. Who is this character?",
+            "a1":"Lucky Zaford",
+            "a2":"Scooter",
+            "a3":"Jaynis Kobb",
+            "a4":"Whiskey Wesley",
+            "c":"Scooter"
+        },
+        {
+            "Q": "Incredible! Using your brain, and all the hurdles that implies, you have correctly identified a piece of the Vault key.'In their quest for the Vault, the players need the help of this scientist who has been studying the alien ruins. Unfortunately, her time on the planet hasn't been easy and she's not quite sane anymore. Who is she?",
+            "a1":"Helena Pierce",
+            "a2":"Ceresia",
+            "a3":"Minerva",
+            "a4":"Patricia Tannis",
+            "c":"Patricia Tannis"
+        },
+        {
+            "Q": "Who needs a real doctor when you got my machines and their scary needles?'Dr. Ned may have gone a little overboard and created a whole island of zombies, but he is 'totally not' the doctor from the original storyline. Sure he looks similar, but Dr. Ned has a mustache... on the outside of his surgical mask. What is the real doctor's name?",
+            "a1":"Dr. Ted",
+            "a2":"Dr. Zed",
+            "a3":"Dr. Fred",
+            "a4":"Dr. Ed",
+            "c":"Dr. Zed"
+        },
+        {
+            "Q": "Did I promise you a show, or didn't I? Who loves you, and who do you love?'This character is the hostess of The Underdome, and interacts directly with the players in another add-on, giving the players missions, such as to kill her ex-husband. What's her name?",
+            "a1":"Hera",
+            "a2":"Aunty Entity",
+            "a3":"Mad Moxxi",
+            "a4":"Helicon",
+            "c":"Mad Moxxi"
+        },
+        {
+            "Q": "You would've made a great soldier. It's a pity I didn't recruit you before now.'An officer of the Crimson Lance, this career soldier is disillusioned with his military career since due to nepotism he reports to 'Admiral Mikey', a 5-year old who sends him macaroni art and misspelled instructions written in crayon. Who is this depressed soldier?",
+            "a1":"Commandant Steele",
+            "a2":"General Knoxx",
+            "a3":"Master McCloud",
+            "a4":"Baron Flynt",
+            "c":"General Knoxx"
+        },
+        {
+            "Q": "What is the name of the settlement where Scooter is encountered?What is the name of the settlement where Scooter is encountered?",
+            "a1":"Old Haven",
+            "a2":"Fyrestone",
+            "a3":"Salt Flats",
+            "a4":"New Haven",
+            "c":"New Haven"
+        },
+        {
+            "Q": "what is the soldier class' name?",
+            "a1":"Brick",
+            "a2":"Moredecai",
+            "a3":"Lilith",
+            "a4":"Roland",
+            "c":"Roland"
+        },
+        {
+            "Q": "What level do you have get to to get the Ding! Sleepless achievement?",
+            "a1":"10",
+            "a2":"20",
+            "a3":"30",
+            "a4":"40",
+            "c":"40"
+        },
+        {
+            "Q": "What is the name of the alien race encountered in borderlands?",
+            "a1":"Erodian",
+            "a2":"Eredian",
+            "a3":"Eridian",
+            "a4":"Eradian",
+            "c":"Eridian"
+        },
+        {
+            "Q":"What is the name of the skag that took T.K's leg?",
+            "a1":"Scar",
+            "a2":"Skagzilla",
+            "a3":"Moe",
+            "a4":"Marley",
+            "c":"Scar"
+        },
+        {
+            "Q": "What is the name of the gun manufacturer that creates all power weapons?",
+            "a1":"Vladof",
+            "a2":"Jakobs",
+            "a3":"S & S Munitions",
+            "a4":"Dahl",
+            "c":"Jakobs"
+        },
+        {
+            "Q": "What are the names of Nine-Toes pet skags?",
+            "a1":"Moe & Marley",
+            "a2":"Scar & Slash",
+            "a3":"Pinky & Digit",
+            "a4":"Mutha & Fatha",
+            "c":"Pinky & Digit"
+        },
+        {
+            "Q": "What is the name of the robot that helps you at the beginning of the game?",
+            "a1":"Shutter Box",
+            "a2":"Yak Trap",
+            "a3":"Clap Trap",
+            "a4":"Natter Head",
+            "c":"Clap Trap"
+        },
+        {
+            "Q": "What is Mordecai's special skill?",
+            "a1":"Berserk",
+            "a2":"Phasewalk",
+            "a3":"Bloodwing",
+            "a4":"Scorpio Turret",
+            "c":"Bloodwing"
+        },
+        {
+            "Q": "What weapon do you start with at the beginning of the game?",
+            "a1":"Rocket Laucher",
+            "a2":"Pistol",
+            "a3":"Nothing",
+            "a4":"Grenade",
+            "c":"Nothing"
+        },
+        {
+            "Q": "How many characters are there to choose from?",
+            "a1":"2",
+            "a2":"5",
+            "a3":"4",
+            "a4":"9",
+            "c":"4"
+        },
+        {
+            "Q": "How many toes does the first boss have?",
+            "a1":"10",
+            "a2":"5",
+            "a3":"9",
+            "a4":"2",
+            "c":"9"
+        },
+        {
+            "Q": "How many Balls does nine-toes have?",
+            "a1":"2",
+            "a2":"4",
+            "a3":"3",
+            "a4":"1",
+            "c":"3"
+        },
+        {
+            "Q": "What are the shift codes used for?",
+            "a1":"To obtain golden Keys",
+            "a2":"To obtain better gear",
+            "a3":"To obtain more cash",
+            "a4":"To obtain special skins",
+            "c":"To obtain golden Keys"
+        },
+        {
+            "Q": "What is the second dlc to be released?",
+            "a1":"New robot revolution",
+            "a2":"Secret armory of General Knoxx",
+            "a3":"Mad Moxxis underdome riot",
+            "a4":"The zombie island of Dr Ned",
+            "c":"Mad Moxxis underdome riot"
+        },
+        {
+            "Q": "When did borderlands become the game of the year?",
+            "a1":"March 24, 2015",
+            "a2":"May 24, 2015",
+            "a3":"March 24, 2016",
+            "a4":"May 24, 2016",
+            "c":"March 24, 2015"
+            
+        }
+    ],
+    "borderlands2": [
+        {
+            "Q":"Who is the first Character you meet?",
+            "a1":"Hammerlock",
+            "a2":"Roland",
+            "a3":"Claptrap",
+            "a4":"Knuckledragger",
+            "c":"Claptrap"
+        },
+        {
+            "Q":"Who is the first character you meet in frostburn Canyon?",
+            "a1":"Roland",
+            "a2":"Sir Hammerlock",
+            "a3":"Captain Flynt",
+            "a4":"Claptrap",
+            "c":"Sir Hammerlock"
+        },
+        {
+            "Q":"Who is the first original Vault hunter you meet?",
+            "a1": "Brick",
+            "a2": "Mordecai",
+            "a3": "Lilith",
+            "a4": "Roland",
+            "c":"Roland"
+
+        },
+        {
+            "Q":"How is Lilith referred to by other characters until you meet her?",
+            "a1":"The Scorcher",
+            "a2":"Phoenix",
+            "a3":"Firehawk",
+            "a4":"Incinerator",
+            "c":"Firehawk"
+        },
+        {
+            "Q":"Who is the final Vault hunter you meet (original name)?",
+            "a1": "Brick",
+            "a2": "Lilith",
+            "a3": "Mordecai",
+            "a4": "Roland",
+            "c":"Brick"
+        },
+        {
+            "Q":"What is Brick's new title among the bandits?",
+            "a1":"Slab Lord",
+            "a2":"Slab King",
+            "a3":"Slab Master",
+            "a4":"Slab Ruler",
+            "c":"Slab King"
+        },
+        {
+            "Q":"Who is the leader of Hyperion?",
+            "a1": "Sir Hammerlock",
+            "a2": "Angel",
+            "a3": "Handsome Jack",
+            "a4": "Claptrap",
+            "c":"Handsome Jack"
+        },
+        {
+            "Q":"Who helps you, betrays you, then helps you again?",
+            "a1": "Scooter",
+            "a2": "Claptrap",
+            "a3": "Angel",
+            "a4": "Roland",
+            "c":"Angel"
+        },
+
+        {
+            "Q":"What do Sir Hammerlock's brain cells do when Claptrap talks?",
+            "a1":"explode",
+            "a2":"commit suicide",
+            "a3":"dissolve",
+            "a4":"Combust",
+            "c":"commit suicide"
+        },
+        {
+            "Q":"What does the chip in Bloodwing's collar do to Claptrap?",
+            "a1": "shuts him up",
+            "a2": "makes him invisible",
+            "a3": "destroys his memory",
+            "a4": "turns him off temporarily",
+            "c":"makes him invisible"
+        },
+        {
+            "Q":"What is Claptrap's biggest weakness?",
+            "a1":"fire",
+            "a2":"stairs",
+            "a3":"acid",
+            "a4":"Bullets",
+            "c":"stairs"
+        },
+        {
+            "Q":"Who is the First boss you fight?",
+            "a1":"The destroyer",
+            "a2":"The bunker",
+            "a3":"Knuckledragger",
+            "a4":"Captain Flint",
+            "c":"Knuckledragger"
+        },
+        {
+            "Q":"What does knuckledragger take from claptrap?",
+            "a1":"His Arm",
+            "a2":"His Leg",
+            "a3":"His Money",
+            "a4":"His eye",
+            "c":"His eye"
+        },
+        {
+            "Q":"What is Buttstallion made of?",
+            "a1":"Emerald",
+            "a2":"Diamond",
+            "a3":"Poop",
+            "a4":"Gold",
+            "c":"Diamond"
+        },
+        {
+            "Q":"What to clans are involved in Ellie's, clan war?",
+            "a1":"Hodunk and Sanctuary",
+            "a2":"Zaford and Bloodshot",
+            "a3":"The Zafords and The Slabs",
+            "a4":"Hodunk and Zaford",
+            "c":"Hodunk and Zaford"
+        },
+        {
+            "Q":"What does ClapTrap do you when you leave him in the ice?",
+            "a1":"He gives you the silent treatment",
+            "a2":"He kills you",
+            "a3":"He gets out without you",
+            "a4":"He makes fun of your mom",
+            "c":"He gives you the silent treatment"
+        },
+        {
+            "Q":"How much money does it take for Moxxie to give you her prized SMG?",
+            "a1":"500",
+            "a2":"50,000",
+            "a3":"100,000",
+            "a4":"5,000",
+            "c":"50,000"
+        },
+        {
+            "Q":"What is the Bunker?",
+            "a1":"My MOM",
+            "a2":"Angel's dad",
+            "a3":"Jacks house",
+            "a4":"A living freaking ROBOT!",
+            "c":"A living freaking ROBOT!"
+        },
+        {
+            "Q":"Who is Blue?",
+            "a1":"The ultra Varkid",
+            "a2":"A cyrtallixs found by a Dahl miner",
+            "a3":"A skag found by Jack",
+            "a4":"Jacks dog",
+            "c":"A cyrtallixs found by a Dahl miner"
+        },
+        {
+            "Q":"What is Tiny Tina's favorite food?",
+            "a1":"Oranges",
+            "a2":"SAUSAGE",
+            "a3":"Crumpets",
+            "a4":"Pizza",
+            "c":"Crumpets"
+        },
+        {
+            "Q":"What rarity is orange?",
+            "a1":"Rare",
+            "a2":"Legendary",
+            "a3":"Epic",
+            "a4":"Seraph",
+            "c":"Legendary"
+        },
+        {
+            "Q":"What is the level cap?",
+            "a1":"72",
+            "a2":"70",
+            "a3":"68",
+            "a4":"65",
+            "c":"72"
+        },
+        {
+            "Q":"What is the last game mode?",
+            "a1":"Normal mode",
+            "a2":"True Vault Hunter mode",
+            "a3":"Ultimate Vault Hunter mode",
+            "a4":"Mayhem Mode",
+            "c":"Ultimate Vault Hunter mode"
+        },
+        {
+            "Q":"How many Overpower levels are there?",
+            "a1":"5",
+            "a2":"6",
+            "a3":"7",
+            "a4":"8",
+            "c":"8"
+            
+        },
+        {
+            "Q":"What SMG drops from BNK-3R?",
+            "a1":"Bitch",
+            "a2":"Fatal ",
+            "a3":"Batch",
+            "a4":"Death",
+            "c":"Bitch"
+        },  
+        
+        {
+            "Q":"In 'Borderlands 2', Morningstar is a unique sniper rifle. In the info section for the sniper rifle it contains the red text that says 'A Rose by any other name...' What play by William Shakespeare is this text referencing?",
+            "a1": "Hamlet",
+            "a2": "Romeo and Juliet",
+            "a3": "Macbeth",
+            "a4": "Othello",
+            "c":"Romeo and Juliet"
+        },
+        {
+            "Q":"The side mission titled 'Neither Rain nor Sleet nor Skags' in 'Borderlands 2' is a play on words referencing what mail carrier's unofficial motto?",
+            "a1": "Royal Mail",
+            "a2": "United States Postal Service",
+            "a3": "DHL",
+            "a4": "Itella",
+            "c":"United States Postal Service"
+        },
+        {
+            "Q":"In 'Borderlands 2' the legendary pistol with the name of Unkempt Harold, in the info section contains the red text 'Did I fire six shots, or only five? Three? Seven. Whatever'. What film starring Clint Eastwood is this pistol referencing in the info section and in its name?",
+            "a1": "Kelly's Heroes",
+            "a2": "The Good, The Bad and The Mordercai",
+            "a3": "Million Dollar Baby",
+            "a4": "Dirty Harry",
+            "c":"Dirty Harry"
+        },
+        {
+            "Q":"In 'Borderlands 2' the Roksalt is a unique shotgun. The red text in the info section contains the text, 'Don't retreat. Instead, reload!' This is a quote from which person who ran as the Vice President candidate in the US 2008 elections?",
+            "a1": "Mitt Romney",
+            "a2": "Sarah Palin",
+            "a3": "Bill Bradley",
+            "a4": "John Edwards",
+            "c":"Sarah Palin"
+        },
+        {
+            "Q":"In 'Borderlands 2' what popular and long running British TV sci-fi series about time travel is used for a few references throughout the game?",
+            "a1": "Firefly",
+            "a2": "V",
+            "a3": "Blake's 7",
+            "a4": "Doctor Who",
+            "c":"Doctor Who"
+        },
+        {
+            "Q":"One of the many challenges in the game 'Borderlands 2' is titled 'JEEEEEKINSSSSSS!' This is a reference to the internet phenomenon that is Leeroy Jenkins. What is the name of the video game that brought Leeroy to worldwide acclaim?",
+            "a1": "Spy Hunter",
+            "a2": "Paperboy",
+            "a3": "World of Warcraft",
+            "a4": "Daley Thompson's Decathlon",
+            "c":"World of Warcraft"
+        },
+        {
+            "Q":"One of the side missions in 'Borderlands 2' is called 'Hungry Like the Skag'. This is a reference to the 1982 pop music hit 'Hungry Like the Wolf'. Which band released this song in 1982?",
+            "a1":"Aha",
+            "a2": "Duran Duran",
+            "a3": "Abba",
+            "a4": "Wet Wet Wet",
+            "c":"Duran Duran"
+        },
+        {
+            "Q":"What US television show theme tune is the side mission 'Won't Get Fooled Again' referencing in 'Borderlands 2'?",
+            "a1": "Emmerdale",
+            "a2": "Cheers",
+            "a3": "CSI Miami",
+            "a4": "The Bill",
+            "c":"CSI Miami"
+        },
+        {
+            "Q":"In 'Borderlands 2', there is a legendary shield that goes by the name of The Bee. The red text in the info section is 'Float like a butterfly...'. Which 20th century sportsmen does this quote come from which is used as the red text?",
+            "a1": "Muhammad Ali",
+            "a2": "OJ Simpson",
+            "a3": "Merv Hughes",
+            "a4": "Bobby Charlton",
+            "c":"Muhammad Ali"
+        },
+        {
+            "Q":"One of the challenges in 'Borderlands 2' is titled 'One Van Leaves'. This is a reference to what 1985 movie starring Tina Turner and Mel Gibson?",
+            "a1": "Last Action Hero",
+            "a2": "Convoy",
+            "a3": "Mad Max Beyond Thunderdome",
+            "a4": "Braveheart",
+            "c":"Mad Max Beyond Thunderdome"
+        },
+        {
+            "Q":"Where is Maya from?",
+            "a1": "Pandora",
+            "a2": "Parts Unknown",
+            "a3": "Elpis",
+            "a4": "Athenas",
+            "c":"Athenas"
+        },
+        {
+            "Q":"As a child Maya was given to an order, but what was the name of that order?",
+            "a1": "Order of the Light",
+            "a2": "Order of the Impending Storm",
+            "a3": "Order of the Greymains",
+            "a4": "Order of the Gods",
+            "c":"Order of the Impending Storm"
+        },
+        {
+            "Q":"Why did Maya come to Pandora?",
+            "a1": "For money",
+            "a2": "To learn more about Sirens",
+            "a3": "For fame",
+            "a4": "To meet someone special",
+            "c":"To learn more about Sirens"
+        },
+        {
+            "Q":"What was the name of the handler that Maya executed?",
+            "a1": "Brother Markus",
+            "a2": "Brother Sophis",
+            "a3": "Brother Jason",
+            "a4": "Brother Bob",
+            "c":"Brother Sophis"
+        },
+        {
+            "Q":"Why did she kill her handler and leave the order?",
+            "a1": "They made her do things she didn't want to do",
+            "a2": "They were using her as a threat",
+            "a3": "They were too poor",
+            "a4": "They were all men",
+            "c":"They were using her as a threat"
+        },
+        {
+            "Q":"What is Maya's class mod depicted by?",
+            "a1": "A book",
+            "a2": "A ring",
+            "a3": "A pair of glasses",
+            "a4": "A hairband",
+            "c":"A book"
+        },
+        {
+            "Q":"What crime is Maya convicted of?",
+            "a1": "Killing",
+            "a2": "Being a Siren",
+            "a3": "Indecent exposure",
+            "a4":"Being a woman",
+            "c":"Being a Siren"
+        },
+        {
+            "Q":"How much is Maya wanted for?",
+            "a1": "$720,000,000,000",
+            "a2": "$620,000,000,000",
+            "a3": "$700,000,000,000",
+            "a4": "$600,000,000,000",
+            "c":  "$720,000,000,000"
+        },
+        {
+            "Q":"Maya has a skin which is a reference to the film 'Shaun of the Dead'. What is the name of this skin?",
+            "a1": "Slice of Fried Gold",
+            "a2": "Shaun of the Dead",
+            "a3": "Shaun",
+            "a4": "Zombies",
+            "c":"Slice of Fried Gold"
+
+        },
+        {
+            "Q":"What playable character was Maya the first to meet?",
+            "a1": "Krieg",
+            "a2": "Brick",
+            "a3": "Gauge",
+            "a4": "Lilith Thunderdome",
+            "c":"Krieg"
+        },
+        {
+            "Q":"How much Eridium does it take to fight terramorphous?",
+            "a1":"16",
+            "a2":"4",
+            "a3":"8",
+            "a4":"12",
+            "c":"8"
+        },
+        {
+            "Q":"Why does Tiny Tina have a lazy eye?",
+            "a1":"She doesn't",
+            "a2":"From an explosive mistake",
+            "a3":"From a programming mistake",
+            "a4":"From a banit",
+            "c":"From a programming mistake"
+        },
+        {
+            "Q":"Who drops the lyuda?",
+            "a1":"The Warrior",
+            "a2":"Gettle",
+            "a3":"Hodunks",
+            "a4":"Saturn",
+            "c":"Gettle"
+        },
+        {
+            "Q":"Who drops the infinity pistol?",
+            "a1":"Gettle",
+            "a2":"King Mong ",
+            "a3":"KnuckleDragger",
+            "a4":"Doc Mercy",
+            "c":"Doc Mercy"
+        },
+        {
+
+            "Q":"Who drops the Bee Shield?",
+            "a1":"Scorch",
+            "a2":"Black Queen",
+            "a3":"Hunter Hellquist",
+            "a4":"Pyro Pete",
+            "c":"Hunter Hellquist"
+        }
+    ],
+    "borderlands3": [
+        {
+            "Q":"When was borderlands 3 Released?",
+            "a1":"September 11, 2019",
+            "a2":"September 12, 2019",
+            "a3":"September 13, 2019",
+            "a4":"September 13, 2018",
+            "c":"September 13, 2019"
+        },
+        {
+            "Q":"Who isnt a playable Character in borderlands 3?",
+            "a1":"Zane",
+            "a2":"Amara",
+            "a3":"Fl4k",
+            "a4":"CL4P-TP",
+            "c":"CL4P-TP"
+        },
+        {
+            "Q":"How many planets are there in Borderlands 3?",
+            "a1":"10",
+            "a2":"2",
+            "a3":"4",
+            "a4":"7",
+            "c":"4"
+        },
+        {
+            "Q":"What is the planet you start on Borderlands 3?",
+            "a1":"Pandora",
+            "a2":"Promethea",
+            "a3":"Eden-6",
+            "a4":"Athenas",
+            "c":"Pandora"
+        },
+        {
+            "Q":"What is the max amount of items are you able to hold in your backpack after upgrading?",
+            "a1":"25",
+            "a2":"75",
+            "a3":"100",
+            "a4":"50",
+            "c":"50"
+        },
+        {
+            "Q":"What is the max amount of items are you able to hold in your bank after upgrading?",
+            "a1":"25",
+            "a2":"75",
+            "a3":"100",
+            "a4":"50",
+            "c":"50"
+        },
+        {
+            "Q":"What Character from borderlands 2 is now dead in borderlands 3 that wasnt already dead?",
+            "a1":"Roland",
+            "a2":"Angel",
+            "a3":"Lilith",
+            "a4":"Scooter",
+            "c":"Scooter"
+        },
+        {
+            "Q":"What is the name of the man that only wears underwear?",
+            "a1":"Van",
+            "a2":"Tina",
+            "a3":"Rhys",
+            "a4":"Zero",
+            "c":"Van"
+        },
+        {
+            "Q":"Who is Van",
+            "a1":"Leader of the moon crushers",
+            "a2":"Leader of the sun crushers",
+            "a3":"Leader of the crushers",
+            "a4":"Leader of the crimson raiders",
+            "c":"Leader of the sun crushers"
+        },
+        {
+            "Q":"What is Van also known as?",
+            "a1":"The Magic Man",
+            "a2":"The Money Man",
+            "a3":"Ricky Bobby",
+            "a4":"The Man",
+            "c":"The Money Man"
+        },
+        {
+            "Q":"Which vault hunter has a pet?",
+            "a1":"Zane",
+            "a2":"Amara",
+            "a3":"Fl4k",
+            "a4":"Moze",
+            "c":"Fl4k"
+        },
+        {
+            "Q":"What is the name of the first vault hunter?",
+            "a1":"Marcus",
+            "a2":"Roland",
+            "a3":"Typhon De Leon",
+            "a4":"Handsome Jack",
+            "c":"Typhon De Leon"
+        },
+        {
+            "Q":"Who are the main Antagonist in the game?",
+            "a1":"The Calypso Twins",
+            "a2":"Katagawa Ball",
+            "a3":"Mouthpiece",
+            "a4":"The Rampager",
+            "c":"The Calypso Twins"
+        },
+        {
+            "Q":"What is the name of the ship?",
+            "a1":"The Transporter",
+            "a2":"The Telepoter",
+            "a3":"Fast Travel",
+            "a4":"Sanctuary 3",
+            "c":"Sanctuary 3"
+        },
+        {
+            "Q":"How much do you have to tip Moxxi to recieve trinket?",
+            "a1":"$10,000",
+            "a2":"$30,000",
+            "a3":"$40,000",
+            "a4":"$100,000",
+            "c":"$10,000"
+        },
+        {
+            "Q":"Which one of these guns came from borderlands 2?",
+            "a1":"infinti",
+            "a2":"smart gun xxl",
+            "a3":"quadomizer",
+            "a4":"Double-Penetrating Occulist",
+            "c":"infinti"
+        },
+        {
+            "Q":"What is the new creature in the game?",
+            "a1":"Jabber",
+            "a2":"Skag",
+            "a3":"Spiderant",
+            "a4":"Rak",
+            "c":"Jabber"
+        },
+        {
+            "Q":"Who is the first big boss you fight?",
+            "a1":"Mouthpiece",
+            "a2":"Shiv",
+            "a3":"Gigamind",
+            "a4":"Captain Traunt",
+            "c":"Shiv"
+        },
+        {
+            "Q":"What type of guns have shields",
+            "a1":"Tedior",
+            "a2":"Jakobs",
+            "a3":"Maliwan",
+            "a4":"Atlas",
+            "c":"Tedior"
+        },
+        {
+            "Q":"How many types of vehicles are there?",
+            "a1":"2",
+            "a2":"1",
+            "a3":"4",
+            "a4":"3",
+            "c":"3"
+        },
+        {
+            "Q":"Which one of these is not a vehicle?",
+            "a1":"Outrunner",
+            "a2":"Technical",
+            "a3":"Cyclone",
+            "a4":"Sandskift",
+            "c":"Sandskift"
+        },
+        {
+            "Q":"What planet do you fight Tyreen?",
+            "a1":"Pandora",
+            "a2":"Athenas",
+            "a3":"Eden-6",
+            "a4":"Elpis",
+            "c":"Pandora"
+        },
+        {
+            "Q":"Which one of these enemies is the roundest?",
+            "a1":"Spiderant",
+            "a2":"Jabber",
+            "a3":"Rak",
+            "a4":"Skag",
+            "c":"Spiderant"
+        },
+        {
+            "Q":"Who has a caffiene addiction?",
+            "a1":"Ace Barron",
+            "a2":"Van",
+            "a3":"Lorieli",
+            "a4":"Rhys",
+            "c":"Rhys"
+        },
+        {
+            "Q":"What is the name of the doctor that raps?",
+            "a1":"Ace Barron",
+            "a2":"Van",
+            "a3":"Dr Zed",
+            "a4":"Rhys",
+            "c":"Ace Barron"
+        },
+        {
+            "Q":"What is a new feature when viewing the map?",
+            "a1":"Color",
+            "a2":"3D scaling",
+            "a3":"Bigger",
+            "a4":"Movable",
+            "c":"3D scaling"
+        },
+        {
+            "Q":"Which one is not a boss you fight?",
+            "a1":"Warden",
+            "a2":"GenIVIV",
+            "a3":"The Graveward",
+            "a4":"Terramorphous",
+            "c":"Terramorphous"
+        },
+        {
+            "Q":"What gun does does Troy Calypso drop?",
+            "a1":"SkeksSil",
+            "a2":"Double-Penetrating Occulist",
+            "a3":"Kings Call",
+            "a4":"Queens Call",
+            "c":"Double-Penetrating Occulist"
+        },
+        {
+            "Q":"Who Drops the Freeman?",
+            "a1":"The Graveward",
+            "a2":"Aurelia",
+            "a3":"Gigamind",
+            "a4":"Warden",
+            "c":"Warden"
+        },
+        {
+            "Q":"What new feature did they add to the Vault Hunters?",
+            "a1":"Crouch",
+            "a2":"Sprint",
+            "a3":"Mantle",
+            "a4":"Float",
+            "c":"Mantle"
+        },
+        {
+            "Q":"What new feature did they add to the weapons?",
+            "a1":"Alternate-fire modes",
+            "a2":"Fire Ammo",
+            "a3":"Infinate Ammo",
+            "a4":"Homing Ammo",
+            "c":"Alternate-fire modes"
+        },
+        {
+            "Q":"What new feature did they add to the NPC's?",
+            "a1":"They can revive you",
+            "a2":"They can fight",
+            "a3":"You can kill them",
+            "a4":"They insult you if you die",
+            "c":"They can revive you"
+        },
+        {
+            "Q":"What is a new feature they added to the bosses?",
+            "a1":"They Spawn other enemies",
+            "a2":"They can be revived",
+            "a3":"They are stronger",
+            "a4":"They have multiple stages",
+            "c":"They have multiple stages"
+        },
+        {
+            "Q":"What did they add to Sanctuary 3?",
+            "a1":"A Lost Loot Machine",
+            "a2":"Colors",
+            "a3":"Decorations",
+            "a4":"Another Bank",
+            "c":"A Lost Loot Machine"
+        },
+        {
+            "Q":"What is the new system implemented into this game?",
+            "a1":"Gestures",
+            "a2":"Tracker",
+            "a3":"Ping",
+            "a4":"Location share",
+            "c":"Ping"
+        },
+        {
+            "Q":"Who isnt a NPC?",
+            "a1":"Balex",
+            "a2":"Clay",
+            "a3":"Lilith",
+            "a4":"Fl4k",
+            "c":"Fl4k"
+        },
+        {
+            "Q":"How many NPC's are they in the Storyline?",
+            "a1":"19",
+            "a2":"20",
+            "a3":"18",
+            "a4":"17",
+            "c":"19"
+        },
+        {
+            "Q":"Who is the owner of the Jakobs ",
+            "a1":"Wainwright Jakobs",
+            "a2":"Jakob Wensel",
+            "a3":"Jakob Zigenis",
+            "a4":"Jakob Wainwright",
+            "c":"Wainwright Jakobs"
+        },
+        {
+            "Q":"Who Made borderlands 3?",
+            "a1":"Bungie",
+            "a2":"A CodeStack Student",
+            "a3":"Gearbox",
+            "a4":"Activision",
+            "c":"Gearbox"
+        },
+        {
+            "Q":"Which game did gear box consider 'The Big One'?",
+            "a1":"Borderlands",
+            "a2":"Borderlands 2",
+            "a3":"Borderlands 3",
+            "a4":"The Pre-Sequal",
+            "c":"Borderlands 3"
+        },
+        {
+            "Q":"How many years was borderlands 3 in development?",
+            "a1":"5 Years",
+            "a2":"7 Years",
+            "a3":"4 Years",
+            "a4":"6 Years",
+            "c":"5 Years"
+        },
+        {
+            "Q":"What Character does Ice T voice?",
+            "a1":"Fl4k",
+            "a2":"Balex",
+            "a3":"Ball",
+            "a4":"Ballex",
+            "c":"Balex"
+        },
+        {
+            "Q":"Tyreen is also...?",
+            "a1":"An enemy",
+            "a2":"A siren",
+            "a3":"A solder",
+            "a4":"A good character",
+            "c":"A siren"
+        },
+        {
+            "Q":"Who isnt a siren?",
+            "a1":"Angel",
+            "a2":"Lilith",
+            "a3":"Amara",
+            "a4":"Tina",
+            "c":"Tina"
+        },
+        {
+            "Q":"How many sirens are there?",
+            "a1":"5",
+            "a2":"6",
+            "a3":"7",
+            "a4":"8",
+            "c":"6"
+        },
+        {
+            "Q":"What fuels a siren?",
+            "a1":"Money",
+            "a2":"Eridium",
+            "a3":"Seriph Crystals",
+            "a4":"Loot-a-gram",
+            "c":"Eridium"
+        },
+        {
+            "Q":"Who is the only male able to use siren powers?",
+            "a1":"Crazy Earl",
+            "a2":"Brick",
+            "a3":"Marcus",
+            "a4":"Troy",
+            "c":"Troy"
+        },
+        {
+            "Q":"Which Vault Hunter Plays themself?",
+            "a1":"Moze",
+            "a2":"Fl4k",
+            "a3":"Amara",
+            "a4":"Zane",
+            "c":"Zane"
+        },
+        {
+            "Q":"What counrty is Amara from?",
+            "a1":"Mexico",
+            "a2":"India",
+            "a3":"USA",
+            "a4":"Spain",
+            "c":"India"
+        },
+        {
+            "Q":"What kind of weapons can you throught to do damage?",
+            "a1":"Tedior",
+            "a2":"Jakobs",
+            "a3":"Maliwan",
+            "a4":"Atlas",
+            "c":"Tedior"
+        }
+    ],
+    "borderlands4": [
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        },
+        {
+            "Q":"U",
+            "a1":"FAIL",
+            "a2":"2",
+            "a3":"IMPRE55",
+            "a4":"ME",
+            "c":"Funkyfresh209"
+        }
+   ],
+   "music": [
+    {
+        "audio1":"../audio/Whip A Tesla-audio.mp3"
+    },
+    {
+        "audio1":"../audio/Borderlands 1 Opening Cinematic.mp3"
+    },
+    {
+        "audio1":"../audio/Borderlands 2 Opening Cinematic.mp3"
+    },
+    {
+        "audio1":"../audio/Borderlands 3 Opening Cinematic.mp3"
+    }
+   ]
+}
