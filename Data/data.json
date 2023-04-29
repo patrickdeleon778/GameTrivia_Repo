@@ -121,286 +121,46 @@
             "c":"Kirby's Dream Land"
         },
         {
-            "Q": "Borderlands is filled with many bosses and semi-bosses. Who is the first boss you encounter in the game?",
-            "a1":"Mad Mel",
-            "a2":"Sledge",
-            "a3":"Nine-Toes",
-            "a4":"Bone Shredder",
-            "c":"Nine-Toes"
+            "Q": "What was the original name of the handheld console that later became the Game Boy?",
+            "a1":"Game & Flop",
+            "a2":"Game & Watch",
+            "a3":"Game & Slop",
+            "a4":"Game & Play",
+            "c":"Game & Watch"
         },
         {
-            "Q": "There are many guns in 'Borderlands'. Which gun type is not a usable gun in the game?",
-            "a1":"Revolver",
-            "a2":"SMG",
-            "a3":"LMG",
-            "a4":"Missile Launcher",
-            "c":"LMG"
+            "Q": "What is the name of the handheld gaming console that succeeded the Game Boy Advance?",
+            "a1":"Gameboy DMG",
+            "a2":"Nintendo DS",
+            "a3":"Gameboy Micro",
+            "a4":"Nintendo DSi",
+            "c":"Nintendo DS"
         },
         {
-            "Q": "Each character in 'Borderlands' uses a unique melee weapon. Mordecai uses a machete, Roland uses a knife, and Lilith uses her powers. What does Brick use normally?",
-            "a1":"An axe",
-            "a2":"His fists",
-            "a3":"A pipe",
-            "a4":"His weapon",
-            "c":"A pipe"
+            "Q": "Which Gameboy has hinges?",
+            "a1":"Gameboy Micro",
+            "a2":"Gameboy Advance SP",
+            "a3":"Gameboy Advance",
+            "a4":"Gameboy DMG",
+            "c":"Gameboy Advance SP"
         },
         {
-            "Q": "Boss fights usually have very strong and deadly character for you to fight. Who is the final boss you face in the Borderlands story?",
-            "a1":"The Warrior",
-            "a2":"MothRakk",
-            "a3":"Skagzilla",
-            "a4":"The Destroyer",
-            "c":"The Destroyer"
+            "Q": "What year did the Gameboy DMG come out",
+            "a1":"1991",
+            "a2":"1998",
+            "a3":"1989",
+            "a4":"1984",
+            "c":"1989"
         },
         {
-            "Q": "What is the name of Mordecai's pet bird?",
-            "a1":"Blodwing",
-            "a2":"Bloodwing",
-            "a3":"Hawkeye",
-            "a4":"Birdo",
-            "c":"Bloodwing"
-        },
-        {
-            "Q": "Which character says 'I might not have a med-school degree, but when you get shot you'll be happy I'm here.'?",
-            "a1":"Dr. Ned",
-            "a2":"Scooter",
-            "a3":"Marcus Kincaid",
-            "a4":"Dr. Zed",
-            "c":"Dr. Zed"
-        },
-        {
-            "Q": "Who of the following characters sells things to you?",
-            "a1":"All of these",
-            "a2":"Marcus Kincaid, Dr Zed and Scooter",
-            "a3":"Marcus Kincaid, Dr Zed and Crazy Earl",
-            "a4":"Marcus Kincaid and Dr Zed",
-            "c":"Marcus Kincaid, Dr Zed and Crazy Earl"
-        },
-        {
-            "Q": "Who is the first voice you hear?",
-            "a1":"Zero",
-            "a2":"Rhys",
-            "a3":"Marcus",
-            "a4":"Fiona",
-            "c":"Marcus"
-        },
-        {
-            "Q": "Which character lost his wife, leg and eyesight to Scar?",
-            "a1":"Dr. Patricia Tannis",
-            "a2":"Colonel T. Zarpedon",
-            "a3":"Angel",
-            "a4":"T.K. Baha",
-            "c":"T.K. Baha"
-        },
-        {
-            "Q": "Only buy the best... if the Vault is real, you'll be able to afford it!'One of the characters players interact with the most when playing 'Borderlands' is the weapons dealer. Whether in person or indirectly through his weapon and ammunition vending machines, players hear this character's voice a lot. Who is it?",
-            "a1":"Marcus Kincaid",
-            "a2":"Crazy Earl",
-            "a3":"Taylor Kobb",
-            "a4":"Chuck Durder",
-            "c":"Marcus Kincaid"
-        },
-        {
-            "Q": "Nothing like a challenging kill.'There are four player characters in the game, but my favorite is the Hunter, who specializes in sniper rifles to attack from a distance and pistols when enemies get closer. The Hunter's Action Skill is Bloodwing, a falcon-like pet that can attack enemies. What is the Hunter's name?",
-            "a1":"Roland",
-            "a2":"Lilith",
-            "a3":"Mordecai",
-            "a4":"Brick",
-            "c":"Mordecai"
-        },
-        {
-            "Q": "Wow! You're not dead?'These robots are found just about everywhere. Many are damaged, and repairing them can yield a good reward. Most are friendly and harmless, until one becomes an Interplanetary Ninja Assassin and attempt to lead a Robot Revolution to kill all the 'fleshbags.' What is the official designation for these robots?",
-            "a1":"4-LOM",
-            "a2":"CL4P-TP",
-            "a3":"EV-9D9",
-            "a4":"I-5YQ",
-            "c":"CL4P-TP"
-        },
-        {
-            "Q": "Hmm... smells like off-worlder. How are you liking our planet anyways?'One unfortunate character in the game starts off blind and missing a leg, and is later killed by bandits. If that wasn't enough, he's later turned into a zombie in one of the game's add-ons. Who is it?",
-            "a1":"Stance Von Kofsky",
-            "a2":"Rade Zayben",
-            "a3":"T.K. Baha",
-            "a4":"Ernest Whitting",
-            "c":"T.K. Baha"
-        },
-        {
-            "Q": "Not going away, huh? Must be a bounty hunter!'One enemy boss in the game is this bandit leader, more known for his strength than his brains. For example, his shotgun is named 'Shotgun' and his hammer is named 'Hammer'. Who is this 'creative' bad guy?",
-            "a1":"Bone Head",
-            "a2":"Sledge",
-            "a3":"Nine Toes",
-            "a4":"One-Eyed Jack",
-            "c":"Sledge"
-        },
-        {
-            "Q": "This is where the cars live! Get you one!'The vehicles in the game and the Catch-A-Ride system are the responsibility of this mechanic, who has a very distinct way of speaking. But even though he's responsible, he does seem to need a lot of help from the players to find parts and make repairs. Who is this character?",
-            "a1":"Lucky Zaford",
-            "a2":"Scooter",
-            "a3":"Jaynis Kobb",
-            "a4":"Whiskey Wesley",
-            "c":"Scooter"
-        },
-        {
-            "Q": "Incredible! Using your brain, and all the hurdles that implies, you have correctly identified a piece of the Vault key.'In their quest for the Vault, the players need the help of this scientist who has been studying the alien ruins. Unfortunately, her time on the planet hasn't been easy and she's not quite sane anymore. Who is she?",
-            "a1":"Helena Pierce",
-            "a2":"Ceresia",
-            "a3":"Minerva",
-            "a4":"Patricia Tannis",
-            "c":"Patricia Tannis"
-        },
-        {
-            "Q": "Who needs a real doctor when you got my machines and their scary needles?'Dr. Ned may have gone a little overboard and created a whole island of zombies, but he is 'totally not' the doctor from the original storyline. Sure he looks similar, but Dr. Ned has a mustache... on the outside of his surgical mask. What is the real doctor's name?",
-            "a1":"Dr. Ted",
-            "a2":"Dr. Zed",
-            "a3":"Dr. Fred",
-            "a4":"Dr. Ed",
-            "c":"Dr. Zed"
-        },
-        {
-            "Q": "Did I promise you a show, or didn't I? Who loves you, and who do you love?'This character is the hostess of The Underdome, and interacts directly with the players in another add-on, giving the players missions, such as to kill her ex-husband. What's her name?",
-            "a1":"Hera",
-            "a2":"Aunty Entity",
-            "a3":"Mad Moxxi",
-            "a4":"Helicon",
-            "c":"Mad Moxxi"
-        },
-        {
-            "Q": "You would've made a great soldier. It's a pity I didn't recruit you before now.'An officer of the Crimson Lance, this career soldier is disillusioned with his military career since due to nepotism he reports to 'Admiral Mikey', a 5-year old who sends him macaroni art and misspelled instructions written in crayon. Who is this depressed soldier?",
-            "a1":"Commandant Steele",
-            "a2":"General Knoxx",
-            "a3":"Master McCloud",
-            "a4":"Baron Flynt",
-            "c":"General Knoxx"
-        },
-        {
-            "Q": "What is the name of the settlement where Scooter is encountered?What is the name of the settlement where Scooter is encountered?",
-            "a1":"Old Haven",
-            "a2":"Fyrestone",
-            "a3":"Salt Flats",
-            "a4":"New Haven",
-            "c":"New Haven"
-        },
-        {
-            "Q": "what is the soldier class' name?",
-            "a1":"Brick",
-            "a2":"Moredecai",
-            "a3":"Lilith",
-            "a4":"Roland",
-            "c":"Roland"
-        },
-        {
-            "Q": "What level do you have get to to get the Ding! Sleepless achievement?",
-            "a1":"10",
-            "a2":"20",
-            "a3":"30",
-            "a4":"40",
-            "c":"40"
-        },
-        {
-            "Q": "What is the name of the alien race encountered in borderlands?",
-            "a1":"Erodian",
-            "a2":"Eredian",
-            "a3":"Eridian",
-            "a4":"Eradian",
-            "c":"Eridian"
-        },
-        {
-            "Q":"What is the name of the skag that took T.K's leg?",
-            "a1":"Scar",
-            "a2":"Skagzilla",
-            "a3":"Moe",
-            "a4":"Marley",
-            "c":"Scar"
-        },
-        {
-            "Q": "What is the name of the gun manufacturer that creates all power weapons?",
-            "a1":"Vladof",
-            "a2":"Jakobs",
-            "a3":"S & S Munitions",
-            "a4":"Dahl",
-            "c":"Jakobs"
-        },
-        {
-            "Q": "What are the names of Nine-Toes pet skags?",
-            "a1":"Moe & Marley",
-            "a2":"Scar & Slash",
-            "a3":"Pinky & Digit",
-            "a4":"Mutha & Fatha",
-            "c":"Pinky & Digit"
-        },
-        {
-            "Q": "What is the name of the robot that helps you at the beginning of the game?",
-            "a1":"Shutter Box",
-            "a2":"Yak Trap",
-            "a3":"Clap Trap",
-            "a4":"Natter Head",
-            "c":"Clap Trap"
-        },
-        {
-            "Q": "What is Mordecai's special skill?",
-            "a1":"Berserk",
-            "a2":"Phasewalk",
-            "a3":"Bloodwing",
-            "a4":"Scorpio Turret",
-            "c":"Bloodwing"
-        },
-        {
-            "Q": "What weapon do you start with at the beginning of the game?",
-            "a1":"Rocket Laucher",
-            "a2":"Pistol",
-            "a3":"Nothing",
-            "a4":"Grenade",
-            "c":"Nothing"
-        },
-        {
-            "Q": "How many characters are there to choose from?",
-            "a1":"2",
-            "a2":"5",
-            "a3":"4",
-            "a4":"9",
-            "c":"4"
-        },
-        {
-            "Q": "How many toes does the first boss have?",
-            "a1":"10",
-            "a2":"5",
-            "a3":"9",
-            "a4":"2",
-            "c":"9"
-        },
-        {
-            "Q": "How many Balls does nine-toes have?",
-            "a1":"2",
-            "a2":"4",
-            "a3":"3",
-            "a4":"1",
-            "c":"3"
-        },
-        {
-            "Q": "What are the shift codes used for?",
-            "a1":"To obtain golden Keys",
-            "a2":"To obtain better gear",
-            "a3":"To obtain more cash",
-            "a4":"To obtain special skins",
-            "c":"To obtain golden Keys"
-        },
-        {
-            "Q": "What is the second dlc to be released?",
-            "a1":"New robot revolution",
-            "a2":"Secret armory of General Knoxx",
-            "a3":"Mad Moxxis underdome riot",
-            "a4":"The zombie island of Dr Ned",
-            "c":"Mad Moxxis underdome riot"
-        },
-        {
-            "Q": "When did borderlands become the game of the year?",
-            "a1":"March 24, 2015",
-            "a2":"May 24, 2015",
-            "a3":"March 24, 2016",
-            "a4":"May 24, 2016",
-            "c":"March 24, 2015"
-            
+            "Q": "Which Sonic game has a robot named 'Emerl'?",
+            "a1":"Sonic Adventure 2 Battle",
+            "a2":"Sonic Battle",
+            "a3":"Sonic Advance 2",
+            "a4":"Sonic Heroes",
+            "c":"Sonic Battle"
         }
+    
     ],
     "borderlands2": [
         {
