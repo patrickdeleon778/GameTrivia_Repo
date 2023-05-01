@@ -173,7 +173,7 @@
         },
         {
             "Q":"The galaxy, in danger from an evil planet, can be saved by lining up at least three magical blocks either vertically or horizontally in which game?",
-            "a1":"RPokemon Trozei",
+            "a1":"Pokemon Trozei",
             "a2":"Puzzle Quest",
             "a3":"Meteos",
             "a4":"Advance Wars DS",
@@ -286,354 +286,110 @@
             "c":"65"
         },
         {
-            "Q":"What does ClapTrap do you when you leave him in the ice?",
-            "a1":"He gives you the silent treatment",
-            "a2":"He kills you",
-            "a3":"He gets out without you",
-            "a4":"He makes fun of your mom",
-            "c":"He gives you the silent treatment"
+            "Q":"Which course WASN'T in the STAR CUP in 'Mario Kart DS'?",
+            "a1":"Tick Tock Clock",
+            "a2":"DK Pass",
+            "a3":"Shroom Ridge",
+            "a4":"Mario Circuit",
+            "c":"Shroom Ridge"
         },
         {
-            "Q":"How much money does it take for Moxxie to give you her prized SMG?",
-            "a1":"500",
-            "a2":"50,000",
-            "a3":"100,000",
-            "a4":"5,000",
-            "c":"50,000"
+            "Q":"In 'Kirby's Squeak Squads', Which copy ability ISN'T present in this game?",
+            "a1":"Thunder Bomb",
+            "a2":"Parasol",
+            "a3":"Stone",
+            "a4":"Cupid",
+            "c":"Stone"
         },
         {
-            "Q":"What is the Bunker?",
-            "a1":"My MOM",
-            "a2":"Angel's dad",
-            "a3":"Jacks house",
-            "a4":"A living freaking ROBOT!",
-            "c":"A living freaking ROBOT!"
+            "Q":"Which out of these games are NOT a DS game?",
+            "a1":"Nintendogs",
+            "a2":"Elite Beat Agents",
+            "a3":"Sonic Rush",
+            "a4":"Bee Movie Game",
+            "c":"Bee Movie Game"
         },
         {
-            "Q":"Who is Blue?",
-            "a1":"The ultra Varkid",
-            "a2":"A cyrtallixs found by a Dahl miner",
-            "a3":"A skag found by Jack",
-            "a4":"Jacks dog",
-            "c":"A cyrtallixs found by a Dahl miner"
+            "Q":"In Warioware: Touched, Who DOESN'T uses the stylus dragging mechanic in their games?",
+            "a1":"Kat & Anna",
+            "a2":"Dr. Crygor",
+            "a3":"Mona",
+            "a4":"Ashley",
+            "c":"Dr. Crygor"
         },
         {
-            "Q":"What is Tiny Tina's favorite food?",
-            "a1":"Oranges",
-            "a2":"SAUSAGE",
-            "a3":"Crumpets",
-            "a4":"Pizza",
-            "c":"Crumpets"
-        },
-        {
-            "Q":"What rarity is orange?",
-            "a1":"Rare",
-            "a2":"Legendary",
-            "a3":"Epic",
-            "a4":"Seraph",
-            "c":"Legendary"
-        },
-        {
-            "Q":"What is the level cap?",
-            "a1":"72",
-            "a2":"70",
-            "a3":"68",
-            "a4":"65",
-            "c":"72"
-        },
-        {
-            "Q":"What is the last game mode?",
-            "a1":"Normal mode",
-            "a2":"True Vault Hunter mode",
-            "a3":"Ultimate Vault Hunter mode",
-            "a4":"Mayhem Mode",
-            "c":"Ultimate Vault Hunter mode"
-        },
-        {
-            "Q":"How many Overpower levels are there?",
-            "a1":"5",
-            "a2":"6",
-            "a3":"7",
-            "a4":"8",
-            "c":"8"
-            
-        },
-        {
-            "Q":"What SMG drops from BNK-3R?",
-            "a1":"Bitch",
-            "a2":"Fatal ",
-            "a3":"Batch",
-            "a4":"Death",
-            "c":"Bitch"
-        },  
-        
-        {
-            "Q":"In 'Borderlands 2', Morningstar is a unique sniper rifle. In the info section for the sniper rifle it contains the red text that says 'A Rose by any other name...' What play by William Shakespeare is this text referencing?",
-            "a1": "Hamlet",
-            "a2": "Romeo and Juliet",
-            "a3": "Macbeth",
-            "a4": "Othello",
-            "c":"Romeo and Juliet"
-        },
-        {
-            "Q":"The side mission titled 'Neither Rain nor Sleet nor Skags' in 'Borderlands 2' is a play on words referencing what mail carrier's unofficial motto?",
-            "a1": "Royal Mail",
-            "a2": "United States Postal Service",
-            "a3": "DHL",
-            "a4": "Itella",
-            "c":"United States Postal Service"
-        },
-        {
-            "Q":"In 'Borderlands 2' the legendary pistol with the name of Unkempt Harold, in the info section contains the red text 'Did I fire six shots, or only five? Three? Seven. Whatever'. What film starring Clint Eastwood is this pistol referencing in the info section and in its name?",
-            "a1": "Kelly's Heroes",
-            "a2": "The Good, The Bad and The Mordercai",
-            "a3": "Million Dollar Baby",
-            "a4": "Dirty Harry",
-            "c":"Dirty Harry"
-        },
-        {
-            "Q":"In 'Borderlands 2' the Roksalt is a unique shotgun. The red text in the info section contains the text, 'Don't retreat. Instead, reload!' This is a quote from which person who ran as the Vice President candidate in the US 2008 elections?",
-            "a1": "Mitt Romney",
-            "a2": "Sarah Palin",
-            "a3": "Bill Bradley",
-            "a4": "John Edwards",
-            "c":"Sarah Palin"
-        },
-        {
-            "Q":"In 'Borderlands 2' what popular and long running British TV sci-fi series about time travel is used for a few references throughout the game?",
-            "a1": "Firefly",
-            "a2": "V",
-            "a3": "Blake's 7",
-            "a4": "Doctor Who",
-            "c":"Doctor Who"
-        },
-        {
-            "Q":"One of the many challenges in the game 'Borderlands 2' is titled 'JEEEEEKINSSSSSS!' This is a reference to the internet phenomenon that is Leeroy Jenkins. What is the name of the video game that brought Leeroy to worldwide acclaim?",
-            "a1": "Spy Hunter",
-            "a2": "Paperboy",
-            "a3": "World of Warcraft",
-            "a4": "Daley Thompson's Decathlon",
-            "c":"World of Warcraft"
-        },
-        {
-            "Q":"One of the side missions in 'Borderlands 2' is called 'Hungry Like the Skag'. This is a reference to the 1982 pop music hit 'Hungry Like the Wolf'. Which band released this song in 1982?",
-            "a1":"Aha",
-            "a2": "Duran Duran",
-            "a3": "Abba",
-            "a4": "Wet Wet Wet",
-            "c":"Duran Duran"
-        },
-        {
-            "Q":"What US television show theme tune is the side mission 'Won't Get Fooled Again' referencing in 'Borderlands 2'?",
-            "a1": "Emmerdale",
-            "a2": "Cheers",
-            "a3": "CSI Miami",
-            "a4": "The Bill",
-            "c":"CSI Miami"
-        },
-        {
-            "Q":"In 'Borderlands 2', there is a legendary shield that goes by the name of The Bee. The red text in the info section is 'Float like a butterfly...'. Which 20th century sportsmen does this quote come from which is used as the red text?",
-            "a1": "Muhammad Ali",
-            "a2": "OJ Simpson",
-            "a3": "Merv Hughes",
-            "a4": "Bobby Charlton",
-            "c":"Muhammad Ali"
-        },
-        {
-            "Q":"One of the challenges in 'Borderlands 2' is titled 'One Van Leaves'. This is a reference to what 1985 movie starring Tina Turner and Mel Gibson?",
-            "a1": "Last Action Hero",
-            "a2": "Convoy",
-            "a3": "Mad Max Beyond Thunderdome",
-            "a4": "Braveheart",
-            "c":"Mad Max Beyond Thunderdome"
-        },
-        {
-            "Q":"Where is Maya from?",
-            "a1": "Pandora",
-            "a2": "Parts Unknown",
-            "a3": "Elpis",
-            "a4": "Athenas",
-            "c":"Athenas"
-        },
-        {
-            "Q":"As a child Maya was given to an order, but what was the name of that order?",
-            "a1": "Order of the Light",
-            "a2": "Order of the Impending Storm",
-            "a3": "Order of the Greymains",
-            "a4": "Order of the Gods",
-            "c":"Order of the Impending Storm"
-        },
-        {
-            "Q":"Why did Maya come to Pandora?",
-            "a1": "For money",
-            "a2": "To learn more about Sirens",
-            "a3": "For fame",
-            "a4": "To meet someone special",
-            "c":"To learn more about Sirens"
-        },
-        {
-            "Q":"What was the name of the handler that Maya executed?",
-            "a1": "Brother Markus",
-            "a2": "Brother Sophis",
-            "a3": "Brother Jason",
-            "a4": "Brother Bob",
-            "c":"Brother Sophis"
-        },
-        {
-            "Q":"Why did she kill her handler and leave the order?",
-            "a1": "They made her do things she didn't want to do",
-            "a2": "They were using her as a threat",
-            "a3": "They were too poor",
-            "a4": "They were all men",
-            "c":"They were using her as a threat"
-        },
-        {
-            "Q":"What is Maya's class mod depicted by?",
-            "a1": "A book",
-            "a2": "A ring",
-            "a3": "A pair of glasses",
-            "a4": "A hairband",
-            "c":"A book"
-        },
-        {
-            "Q":"What crime is Maya convicted of?",
-            "a1": "Killing",
-            "a2": "Being a Siren",
-            "a3": "Indecent exposure",
-            "a4":"Being a woman",
-            "c":"Being a Siren"
-        },
-        {
-            "Q":"How much is Maya wanted for?",
-            "a1": "$720,000,000,000",
-            "a2": "$620,000,000,000",
-            "a3": "$700,000,000,000",
-            "a4": "$600,000,000,000",
-            "c":  "$720,000,000,000"
-        },
-        {
-            "Q":"Maya has a skin which is a reference to the film 'Shaun of the Dead'. What is the name of this skin?",
-            "a1": "Slice of Fried Gold",
-            "a2": "Shaun of the Dead",
-            "a3": "Shaun",
-            "a4": "Zombies",
-            "c":"Slice of Fried Gold"
-
-        },
-        {
-            "Q":"What playable character was Maya the first to meet?",
-            "a1": "Krieg",
-            "a2": "Brick",
-            "a3": "Gauge",
-            "a4": "Lilith Thunderdome",
-            "c":"Krieg"
-        },
-        {
-            "Q":"How much Eridium does it take to fight terramorphous?",
-            "a1":"16",
-            "a2":"4",
-            "a3":"8",
-            "a4":"12",
-            "c":"8"
-        },
-        {
-            "Q":"Why does Tiny Tina have a lazy eye?",
-            "a1":"She doesn't",
-            "a2":"From an explosive mistake",
-            "a3":"From a programming mistake",
-            "a4":"From a banit",
-            "c":"From a programming mistake"
-        },
-        {
-            "Q":"Who drops the lyuda?",
-            "a1":"The Warrior",
-            "a2":"Gettle",
-            "a3":"Hodunks",
-            "a4":"Saturn",
-            "c":"Gettle"
-        },
-        {
-            "Q":"Who drops the infinity pistol?",
-            "a1":"Gettle",
-            "a2":"King Mong ",
-            "a3":"KnuckleDragger",
-            "a4":"Doc Mercy",
-            "c":"Doc Mercy"
-        },
-        {
-
-            "Q":"Who drops the Bee Shield?",
-            "a1":"Scorch",
-            "a2":"Black Queen",
-            "a3":"Hunter Hellquist",
-            "a4":"Pyro Pete",
-            "c":"Hunter Hellquist"
+            "Q":"Which Nintendogs DS game is not a real game?",
+            "a1":"Nintendogs: Shiba Inu & Friends",
+            "a2":"Nintendogs: Chihuahua & Friends",
+            "a3":"Nintendogs: Labrador & Friends",
+            "a4":"Nintendogs: Pitbull & Friends",
+            "c":"Nintendogs: Pitbull & Friends"
         }
     ],
-    "borderlands3": [
+    "switch": [
         {
-            "Q":"When was borderlands 3 Released?",
-            "a1":"September 11, 2019",
-            "a2":"September 12, 2019",
-            "a3":"September 13, 2019",
-            "a4":"September 13, 2018",
-            "c":"September 13, 2019"
+            "Q":"What year did the Nintendo Switch first come out?",
+            "a1":"1999",
+            "a2":"2007",
+            "a3":"2015",
+            "a4":"2017",
+            "c":"2017"
         },
         {
-            "Q":"Who isnt a playable Character in borderlands 3?",
-            "a1":"Zane",
-            "a2":"Amara",
-            "a3":"Fl4k",
-            "a4":"CL4P-TP",
-            "c":"CL4P-TP"
+            "Q":"What is the racoon salesman called in 'Animal Crossing: New Horizons?'",
+            "a1":"Tom Snook",
+            "a2":"Tom Crook",
+            "a3":"Tom Nook",
+            "a4":"Tom Book",
+            "c":"Tom Nook"
         },
         {
-            "Q":"How many planets are there in Borderlands 3?",
-            "a1":"10",
-            "a2":"2",
-            "a3":"4",
-            "a4":"7",
-            "c":"4"
+            "Q":"What game was released as a Nintendo Switch exclusive in July 2022 and told the story of Noah and Mio who live in an area of perpetual war?",
+            "a1":"Xenoblade Chronicles 3",
+            "a2":"Muramasa: The Demon Blade",
+            "a3":"Sin and Punishment",
+            "a4":"Mother 3",
+            "c":"Xenoblade Chronicles 3"
         },
         {
-            "Q":"What is the planet you start on Borderlands 3?",
-            "a1":"Pandora",
-            "a2":"Promethea",
-            "a3":"Eden-6",
-            "a4":"Athenas",
-            "c":"Pandora"
+            "Q":"What title character of a game released in January 2022 is the creator of the Pokémon world and master of the Creation Trio and the Lake Guardians?",
+            "a1":"Azelf",
+            "a2":"Snorlax",
+            "a3":"Arceus",
+            "a4":"Jigglypuff",
+            "c":"Azelf"
         },
         {
-            "Q":"What is the max amount of items are you able to hold in your backpack after upgrading?",
-            "a1":"25",
-            "a2":"75",
-            "a3":"100",
-            "a4":"50",
-            "c":"50"
+            "Q":"Released in March 2022, in what game do players rescue Waddle Dees by copying the abilities of enemies and objects by inhaling them?",
+            "a1":"Day of the Tentacle",
+            "a2":"It Takes Two",
+            "a3":"Life is Strange: True Colors",
+            "a4":"Kirby and the Forgotten Land",
+            "c":"Kirby and the Forgotten Land"
         },
         {
-            "Q":"What is the max amount of items are you able to hold in your bank after upgrading?",
-            "a1":"25",
-            "a2":"75",
-            "a3":"100",
-            "a4":"50",
-            "c":"50"
+            "Q":"'Splatoon 3' was released in September 2022 and it was a third-person shooter. What is the primary projectile fired in 'Splatoon 3'?",
+            "a1":"Colored ink",
+            "a2":"Exploding arrows",
+            "a3":"Metal bullets",
+            "a4":"Mesh nets",
+            "c":"Colored ink"
         },
         {
-            "Q":"What Character from borderlands 2 is now dead in borderlands 3 that wasnt already dead?",
-            "a1":"Roland",
-            "a2":"Angel",
-            "a3":"Lilith",
-            "a4":"Scooter",
-            "c":"Scooter"
+            "Q":"'Nintendo Switch Sports' was released in April 2022 and at launch it included six sports. Which sport included a special mode with bumpers, obstacles, ramps, pitfalls, and timing-based challenges to contend with?",
+            "a1":"Volleyball",
+            "a2":"Badminton",
+            "a3":"Tennis",
+            "a4":"Bowling",
+            "c":"Bowling"
         },
         {
-            "Q":"What is the name of the man that only wears underwear?",
-            "a1":"Van",
-            "a2":"Tina",
-            "a3":"Rhys",
-            "a4":"Zero",
-            "c":"Van"
+            "Q":"In what game released on the Nintendo Switch in October 2022 do players control 'The Joker' who attends high school in Tokyo and battles monsters through his subconscious?",
+            "a1":"Nobody Saves the World",
+            "a2":"Gnosia",
+            "a3":"Demon Gaze Extra",
+            "a4":"Persona 5 Royal",
+            "c":"Persona 5 Royal"
         },
         {
             "Q":"Who is Van",
