@@ -160,130 +160,130 @@
             "a4":"Sonic Heroes",
             "c":"Sonic Battle"
         }
-    
+
     ],
-    "borderlands2": [
+    "ds": [
         {
-            "Q":"Who is the first Character you meet?",
-            "a1":"Hammerlock",
-            "a2":"Roland",
-            "a3":"Claptrap",
-            "a4":"Knuckledragger",
-            "c":"Claptrap"
+            "Q":"In which Nintendo DS game can you not only move into and help build a town, but invite your friends over using the Nintendo Wi-Fi or wireless communication?",
+            "a1":"Final Fantasy III",
+            "a2":"Star Fox Command",
+            "a3":"Animal Crossing: Wild World",
+            "a4":"Pokemon Diamond/Pearl",
+            "c":"Animal Crossing: Wild World"
         },
         {
-            "Q":"Who is the first character you meet in frostburn Canyon?",
-            "a1":"Roland",
-            "a2":"Sir Hammerlock",
-            "a3":"Captain Flynt",
-            "a4":"Claptrap",
-            "c":"Sir Hammerlock"
+            "Q":"The galaxy, in danger from an evil planet, can be saved by lining up at least three magical blocks either vertically or horizontally in which game?",
+            "a1":"RPokemon Trozei",
+            "a2":"Puzzle Quest",
+            "a3":"Meteos",
+            "a4":"Advance Wars DS",
+            "c":"Meteos"
         },
         {
-            "Q":"Who is the first original Vault hunter you meet?",
-            "a1": "Brick",
-            "a2": "Mordecai",
-            "a3": "Lilith",
-            "a4": "Roland",
-            "c":"Roland"
+            "Q":"Which RPG games, fourth in their generation, now have over 450 collectible monsters to catch and trade?",
+            "a1":"Dragon Quest Monster: Joker",
+            "a2":"Pokemon Trozei",
+            "a3":"Pokemon Diamond/Pearl",
+            "a4":"Pokemon Rescue Team",
+            "c":"Pokemon Diamond/Pearl"
 
         },
         {
-            "Q":"How is Lilith referred to by other characters until you meet her?",
-            "a1":"The Scorcher",
-            "a2":"Phoenix",
-            "a3":"Firehawk",
-            "a4":"Incinerator",
-            "c":"Firehawk"
+            "Q":"In what game, which is a direct sequel to a Player's Choice Gamecube game, does a small but famous green-clad hero use nothing but the stylus to save a certain princess on the high seas?",
+            "a1":"The Legend of Zelda: Phantom Hourglass",
+            "a2":"Mario & Luigi: Partners in Time",
+            "a3":"Dragon Quest Heroes: Rocket Slime",
+            "a4":"Animal Crossing: Wild World",
+            "c":"The Legend of Zelda: Phantom Hourglass"
         },
         {
-            "Q":"Who is the final Vault hunter you meet (original name)?",
-            "a1": "Brick",
-            "a2": "Lilith",
-            "a3": "Mordecai",
-            "a4": "Roland",
-            "c":"Brick"
+            "Q":"With 32 tracks and multiplayer racing action, characters like Luigi, Bowser and others race around the circuits in what game?",
+            "a1": "Mario Kart DS",
+            "a2": "Dragon Quest Heroes: Rocket Slime",
+            "a3": "Diddy Kong Racing",
+            "a4": "Wario Ware Touched!",
+            "c":"Mario Kart DS"
         },
         {
-            "Q":"What is Brick's new title among the bandits?",
-            "a1":"Slab Lord",
-            "a2":"Slab King",
-            "a3":"Slab Master",
-            "a4":"Slab Ruler",
-            "c":"Slab King"
+            "Q":"Part of the Touch Generation of games, Dr. Kawashima helps you exercise a certain part of your body in minutes a day in what game?",
+            "a1":"Big Brain Academy",
+            "a2":"Brain Age",
+            "a3":"Nintendogs",
+            "a4":"Tetris DS",
+            "c":"Brain Age"
         },
         {
-            "Q":"Who is the leader of Hyperion?",
-            "a1": "Sir Hammerlock",
-            "a2": "Angel",
-            "a3": "Handsome Jack",
-            "a4": "Claptrap",
-            "c":"Handsome Jack"
+            "Q":"In what first-person shooter game do six new hunters join the familiar Samus in multiplayer action?",
+            "a1": "Metroid Prime Pinball",
+            "a2": "Metroid Prime: Hunters",
+            "a3": "Puzzle Quest",
+            "a4": "Meteos",
+            "c":"Metroid Prime: Hunters"
         },
         {
-            "Q":"Who helps you, betrays you, then helps you again?",
-            "a1": "Scooter",
-            "a2": "Claptrap",
-            "a3": "Angel",
-            "a4": "Roland",
-            "c":"Angel"
+            "Q":"What game, sequel to a Game Boy Advance title of a similar name, do the Mario brothers travel through time with their baby counterparts to save the world, and Princess Peach?",
+            "a1": "New Super Mario Brothers",
+            "a2": "Super Princess Peach",
+            "a3": "Super Mario 64 DS",
+            "a4": "Mario & Luigi: Partners in Time",
+            "c":"Mario & Luigi: Partners in Time"
         },
 
         {
-            "Q":"What do Sir Hammerlock's brain cells do when Claptrap talks?",
-            "a1":"explode",
-            "a2":"commit suicide",
-            "a3":"dissolve",
-            "a4":"Combust",
-            "c":"commit suicide"
+            "Q":"Which Nintendo DS launch title is a remake of an old Nintendo 64 game?",
+            "a1":"New Super Mario Brothers",
+            "a2":"Super Smash Bros. DS",
+            "a3":"Super Mario 64 DS",
+            "a4":"The Legend of Zelda: Ocarina of Time DS",
+            "c":"Super Mario 64 DS"
         },
         {
-            "Q":"What does the chip in Bloodwing's collar do to Claptrap?",
-            "a1": "shuts him up",
-            "a2": "makes him invisible",
-            "a3": "destroys his memory",
-            "a4": "turns him off temporarily",
-            "c":"makes him invisible"
+            "Q":"Which game, following in the footsteps of 'Mega Microgame$!' for the Game Boy Advance, adds new cast members, such as Ashley and Mike, to help a certain greedy person make even more money?",
+            "a1": "Wario Ware Twisted!",
+            "a2": "Wario Ware Touched!",
+            "a3": "Feel the Magic XX/XY",
+            "a4": "Super Monkey Ball",
+            "c":"Wario Ware Touched!"
         },
         {
-            "Q":"What is Claptrap's biggest weakness?",
-            "a1":"fire",
-            "a2":"stairs",
-            "a3":"acid",
-            "a4":"Bullets",
-            "c":"stairs"
+            "Q":"What day did the Nintendo DS Lite come out in the US?",
+            "a1":"June 20, 2006",
+            "a2":"June 11, 2006",
+            "a3":"July 11, 2006",
+            "a4":"May 26, 2006",
+            "c":"June 11, 2006"
         },
         {
-            "Q":"Who is the First boss you fight?",
-            "a1":"The destroyer",
-            "a2":"The bunker",
-            "a3":"Knuckledragger",
-            "a4":"Captain Flint",
-            "c":"Knuckledragger"
+            "Q":"In the game 'Animal Crossing: Wild World', who is the owner of the shop?",
+            "a1":"Nook",
+            "a2":"Kiki",
+            "a3":"Pompom",
+            "a4":"Lew",
+            "c":"Nook"
         },
         {
-            "Q":"What does knuckledragger take from claptrap?",
-            "a1":"His Arm",
-            "a2":"His Leg",
-            "a3":"His Money",
-            "a4":"His eye",
-            "c":"His eye"
+            "Q":"In 'New Super Mario Bros.', what is the name of the little skeletons?",
+            "a1":"Moist Joints",
+            "a2":"Moist Bones",
+            "a3":"Dry Joints",
+            "a4":"Dry Bones",
+            "c":"Dry Bones"
         },
         {
-            "Q":"What is Buttstallion made of?",
-            "a1":"Emerald",
-            "a2":"Diamond",
-            "a3":"Poop",
-            "a4":"Gold",
-            "c":"Diamond"
+            "Q":"In the game 'Bomberman Land Touch!', who is the Bomberman you play as in story mode?",
+            "a1":"Cool Black",
+            "a2":"Cheerful White",
+            "a3":"Bookworm Green",
+            "a4":"Kid Blue",
+            "c":"Cheerful White"
         },
         {
-            "Q":"What to clans are involved in Ellie's, clan war?",
-            "a1":"Hodunk and Sanctuary",
-            "a2":"Zaford and Bloodshot",
-            "a3":"The Zafords and The Slabs",
-            "a4":"Hodunk and Zaford",
-            "c":"Hodunk and Zaford"
+            "Q":"In 'PictoChat', what is the furthest distance (in feet) you can be from the other person, and it will still work?",
+            "a1":"55",
+            "a2":"65",
+            "a3":"75",
+            "a4":"85",
+            "c":"65"
         },
         {
             "Q":"What does ClapTrap do you when you leave him in the ice?",
