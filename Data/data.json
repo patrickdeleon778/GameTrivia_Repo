@@ -487,19 +487,5 @@
             "a4":"To turn invisible",
             "c":"To steal a balloon"
         }
-    ],
-   "music": [
-    {
-        "audio1":"../audio/Whip A Tesla-audio.mp3"
-    },
-    {
-        "audio1":"../audio/Borderlands 1 Opening Cinematic.mp3"
-    },
-    {
-        "audio1":"../audio/Borderlands 2 Opening Cinematic.mp3"
-    },
-    {
-        "audio1":"../audio/Borderlands 3 Opening Cinematic.mp3"
-    }
-   ]
+    ]
 }
