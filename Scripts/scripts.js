@@ -9,35 +9,17 @@ function loadHTML(url) {
     fetch(url)
         .then(data => data.text())
             .then(response => {
-                if(url === '/HTML/titleScreen.html'){
-                    loadTitleScreen(response);
-                }
-                else if(url === '/HTML/trivia.html'  && level === 1){
-                    loadTrivia(response, gbQuestions);
-                }
-                else if(url === '/HTML/trivia.html'  && level === 2){
-                    loadTrivia(response, dsQuestions);
-                }
-                else if(url === '/HTML/trivia.html'  && level === 3){
-                    loadTrivia(response, switchQuestions);
-                }
-                // else if(url === '../site/lvlSelect.html'){
-                //     loadLvlSelect(response);
-                // }
-                // else if(url === '../site/borderlands.html' && difficulty === 1){
-                //     loadGame(response, Bld1Questions);
-                // }
-                // else if(url === '../site/borderlands.html' && difficulty === 2){
-                //     loadGame(response, Bld2Questions);
-                // }
-                // else if(url === '../site/borderlands.html' && difficulty === 3){
-                //     loadGame(response, Bld3Questions);
-                // }
+                (url === '/HTML/titleScreen.html') ? loadTitleScreen(response) :
+                (url === '/HTML/trivia.html'  && level === 3) ? loadTrivia(response, gbQuestions) :
+                (url === '/HTML/trivia.html'  && level === 2) ? loadTrivia(response, dsQuestions) :
+                (url === '/HTML/trivia.html'  && level === 1) ? loadTrivia(response, switchQuestions) : 
+                (url === '/HTML/result.html') ? loadResults(response) : console.log('You suck');
             });
 }
 
 function loadTitleScreen(html){
     inject.innerHTML = html
+
         let lvl1 = document.getElementById('lvl1');
         let lvl2 = document.getElementById('lvl2');
         let lvl3 = document.getElementById('lvl3');
@@ -61,11 +43,11 @@ function loadTrivia(html, questions){
 
     let score = 0;
     let totalQuestions = 20;
-    let currentQuestion = 0;
+    let currentIndex = 0;
     let timer = 10;
+    let newQuestions = questions;
     let usedQuestions = [];
-
-
+    
     let quest = document.getElementById('Q');
     let a1 = document.getElementById('a1');
     let a2 = document.getElementById('a2');
@@ -73,33 +55,50 @@ function loadTrivia(html, questions){
     let a4 = document.getElementById('a4');
     let correct = document.getElementById('c');
 
-    loadQuestions();
+    a1.addEventListener('click', function(e){
+        correctAnswer(e.target.innerText);
+        console.log(currentIndex);
+    });
+    a2.addEventListener('click', function(e){
+        correctAnswer(e.target.innerText);
+    })
+    a3.addEventListener('click', function(e){
+        correctAnswer(e.target.innerText);
+    })
+    a4.addEventListener('click', function(e){
+        correctAnswer(e.target.innerText);
+    })
 
-    console.log(questions)
-
-    function loadQuestions(){
-        quest.innerText = questions[currentQuestion].Q;
-        a1.innerText = questions[currentQuestion].a1;
-        a2.innerText = questions[currentQuestion].a2;
-        a3.innerText = questions[currentQuestion].a3;
-        a4.innerText = questions[currentQuestion].a4;
+    randomQuestion();
+    loadQuestions(usedQuestions);
+    
+    function loadQuestions(newQs){
+        quest.innerText = newQs[currentIndex].Q;
+        a1.innerText = newQs[currentIndex].a1;
+        a2.innerText = newQs[currentIndex].a2;
+        a3.innerText = newQs[currentIndex].a3;
+        a4.innerText = newQs[currentIndex].a4;
     }
 
     function correctAnswer(ans){
-        if(ans === questions.currentQuestion.C){
-            score++;
-        }
+        ans === usedQuestions[currentIndex].c && score++;
+        nextIndexQuestion();
+    }
+
+    function nextIndexQuestion(){
+        currentIndex++;
+        currentIndex < totalQuestions ? loadQuestions(usedQuestions) : loadHTML('/HTML/result.html');
     }
 
     function randomQuestion() {
         let randomIndex;
         for (let i = 0; i < totalQuestions; i++) {
-          randomIndex = Math.floor(Math.random() * questions.length);
-          const selectedQuestion = questions[randomIndex];
+          randomIndex = Math.floor(Math.random() * newQuestions.length);
+          const selectedQuestion = newQuestions[randomIndex];
           usedQuestions.push(selectedQuestion);
-          questions.splice(randomIndex, 1);
+          newQuestions.splice(randomIndex, 1);
         }
-      }
+    }
 }
 
 function getQuestions(url){
@@ -121,6 +120,10 @@ function getQuestions(url){
                 // console.log(dsQuestions);
                 // console.log(switchQuestions);
             });
+}
+
+function loadResults(html){
+    inject.innerHTML = html;
 }
 
 // function loadMainMenu(html){
@@ -184,6 +187,6 @@ function getQuestions(url){
 //                 let a3 = document.getElementById('a3');
 //                 let a4 = document.getElementById('a4');
 
-
+getQuestions('/Data/data.json');
 loadHTML('/HTML/titleScreen.html');
-getQuestions('/Data/data.json')
+// getQuestions('/Data/data.json');
