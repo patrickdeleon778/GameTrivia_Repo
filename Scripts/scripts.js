@@ -30,18 +30,31 @@ function loadTitleScreen(html) {
   let lvl1 = document.getElementById("lvl1");
   let lvl2 = document.getElementById("lvl2");
   let lvl3 = document.getElementById("lvl3");
+  let gbSound = document.getElementById('gbSound');
+  let dsSound = document.getElementById('dsSound');
+  let switchSound = document.getElementById('switchSound');
+
+  let gbBGM = document.getElementById('gbBGM');
+  let dsBGM = document.getElementById('dsBGM');
+  let switchBGM = document.getElementById('switchBGM');
 
   lvl1.addEventListener("click", e => {
     loadHTML("/HTML/trivia.html");
     level = 1;
+    switchSound.play();
+    switchBGM.play();
   });
   lvl2.addEventListener("click", e => {
     loadHTML("/HTML/trivia.html");
     level = 2;
+    dsSound.play();
+    dsBGM.play();
   });
   lvl3.addEventListener("click", e => {
     loadHTML("/HTML/trivia.html");
     level = 3;
+    gbSound.play();
+    gbBGM.play();
   });
 }
 
