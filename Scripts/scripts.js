@@ -1,4 +1,6 @@
 let inject = document.getElementById("inject");
+let titleBGM = document.getElementById('titleBGM');
+
 let gbQuestions = [];
 let dsQuestions = [];
 let switchQuestions = [];
@@ -43,19 +45,43 @@ function loadTitleScreen(html) {
     level = 1;
     switchSound.play();
     switchBGM.play();
+    titleBGM.pause();
   });
+  lvl1.addEventListener('mouseover', e => {
+    lvl1.classList.add('pound');
+  });
+
+  lvl1.addEventListener('mouseleave', e => {
+    lvl1.classList.remove('pound');
+  })
+
   lvl2.addEventListener("click", e => {
     loadHTML("/HTML/trivia.html");
     level = 2;
     dsSound.play();
     dsBGM.play();
   });
+  lvl2.addEventListener('mouseover', e => {
+    lvl2.classList.add('pound');
+  });
+
+  lvl2.addEventListener('mouseleave', e => {
+    lvl2.classList.remove('pound');
+  })
+
   lvl3.addEventListener("click", e => {
     loadHTML("/HTML/trivia.html");
     level = 3;
     gbSound.play();
     gbBGM.play();
   });
+  lvl3.addEventListener('mouseover', e => {
+    lvl3.classList.add('pound');
+  });
+  lvl3.addEventListener('mouseleave', e => {
+    lvl3.classList.remove('pound');
+  });
+
 }
 
 function loadTrivia(html, questions) {
@@ -76,6 +102,8 @@ function loadTrivia(html, questions) {
   let c = document.getElementById("c");
   let timerNum = document.getElementById('timerNum');
   let scoreNum = document.getElementById('score');
+  let correctSound = document.getElementById('correctSound');
+  let wrongSound = document.getElementById('wrongSound');
 
   a1.addEventListener("click", e => {
     correctAnswer(e.target.innerText);
@@ -110,6 +138,9 @@ function loadTrivia(html, questions) {
     }
   }
 
+  // function buttonSounds(){
+  //   if
+  // }
   function loadQuestions(newQs) {
     clearInterval(timerInterval);
     timerInterval = setInterval(startTimer, 1000);
@@ -123,6 +154,9 @@ function loadTrivia(html, questions) {
 
   function correctAnswer(ans) {
     ans === usedQuestions[currentIndex].c && score++;
+    ans === usedQuestions[currentIndex].c ? correctSound.play() :
+                                            wrongSound.play();
+    
     timer = 15;
     scoreNum.innerText = score;
     nextIndexQuestion();
