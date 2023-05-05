@@ -57,7 +57,7 @@ function loadTrivia(html, questions){
 
     a1.addEventListener('click', function(e){
         correctAnswer(e.target.innerText);
-        console.log(currentIndex);
+        startTimer()
     });
     a2.addEventListener('click', function(e){
         correctAnswer(e.target.innerText);
@@ -71,13 +71,26 @@ function loadTrivia(html, questions){
 
     randomQuestion();
     loadQuestions(usedQuestions);
+
+    function startTimer() {
+        
+          timer--; // Decrement the count
+          if (timer <= 0) {
+            timer = 10;
+            loadQuestions(usedQuestions);
+          } else {
+            console.log(timer);
+          }
+        }
     
     function loadQuestions(newQs){
+        let timerInterval = setInterval(startTimer(), 1000);
         quest.innerText = newQs[currentIndex].Q;
         a1.innerText = newQs[currentIndex].a1;
         a2.innerText = newQs[currentIndex].a2;
         a3.innerText = newQs[currentIndex].a3;
         a4.innerText = newQs[currentIndex].a4;
+        
     }
 
     function correctAnswer(ans){
