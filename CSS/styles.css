@@ -3,6 +3,11 @@
     src: url(/Font/Early_GameBoy.ttf);
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
 .gameFont {
     font-family: "GameFont";
 }
