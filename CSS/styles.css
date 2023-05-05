@@ -6,3 +6,7 @@
 .gameFont {
     font-family: "GameFont";
 }
+
+.font30 {
+    font-size: 30px;
+}

@@ -1,23 +1,29 @@
 <div id="hero">
-    <div class="row">
+    <div class="row m-5">
         <div class="col-12 d-flex justify-content-center">
-            <p id="title">Nintendo Trivia!</p>
+            <p id="title" style="font-size: 30px;">Nintendo game Trivia!</p>
         </div>
     </div>
 
-    <div class="container pt-5">
-        <div class="row">
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col d-flex justify-content-end">
+                <p class="font30">Timer:</p>
+            </div>
             <div class="col">
-                <p id="Q"></p>
+                <p class="font30" id="timerNum">15</p>
+            </div>
+            <div class="col d-flex justify-content-end">
+                <p class="font30">Score:</p>
+            </div>
+            <div class="col">
+                <p class="font30" id="score">0</p>
             </div>
         </div>
-        
-        <div class="row mt-3">
-            <div class="col">
-                <p>Timer:</p>
-            </div>
-            <div class="col">
-                <p id="counter">0</p>
+
+        <div class="row p-5 mb-5">
+            <div class="col" style="min-height: 275px;">
+                <p class="" id="Q" style="font-size: 30px;"></p>
             </div>
         </div>
           
@@ -45,13 +51,5 @@
             </div>
         </div>
 
-        <div class="row mt-3">
-            <div class="col">
-                <p>Score:</p>
-            </div>
-            <div class="col">
-                <p id="score">0</p>
-            </div>
-        </div>
     </div>
 </div>
