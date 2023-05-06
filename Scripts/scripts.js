@@ -90,7 +90,7 @@ function loadTrivia(html, questions) {
   let score = 0;
   let totalQuestions = 20;
   let currentIndex = 0;
-  let timer = 15;
+  let timer = 20;
   let newQuestions = questions;
   let usedQuestions = [];
 
@@ -104,6 +104,7 @@ function loadTrivia(html, questions) {
   let scoreNum = document.getElementById('score');
   let correctSound = document.getElementById('correctSound');
   let wrongSound = document.getElementById('wrongSound');
+  let outTime = document.getElementById('outTime');
 
   a1.addEventListener("click", e => {
     correctAnswer(e.target.innerText);
@@ -127,9 +128,37 @@ function loadTrivia(html, questions) {
 
   function startTimer() {
     timer--; // Decrement the count
+    if(timer == 10){
+      outTime.play();
+      gbBGM.pause();
+      dsBGM.pause();
+      switchBGM.pause();
+
+    }
+
+    if(timer == 7 && level == 1){
+      // gbBGM.play();
+      // dsBGM.play();
+      switchBGM.play();
+      switchBGM.playbackRate = 1.5;
+      // dsBGM.playbackRate = 1.5;
+      // gbBGM.playbackRate = 1.5;
+    }
+    else if(timer == 7 && level == 2){
+      dsBGM.play();
+      dsBGM.playbackRate = 1.5;
+    }
+    else if(timer == 7 && level == 3){
+      gbBGM.play();
+      gbBGM.playbackRate = 1.5;
+    }
+
     if (timer == 0) {
-      timer = 15;
+      timer = 20;
       wrongSound.play();
+      gbBGM.playbackRate = 1.0;
+      dsBGM.playbackRate = 1.0;
+      switchBGM.playbackRate = 1.0;
       nextIndexQuestion();
       timerNum.innerText = timer;
       console.log(timer + " timer when");
@@ -158,7 +187,7 @@ function loadTrivia(html, questions) {
     ans === usedQuestions[currentIndex].c ? correctSound.play() :
                                             wrongSound.play();
     
-    timer = 15;
+    timer = 20;
     scoreNum.innerText = score;
     nextIndexQuestion();
   }
