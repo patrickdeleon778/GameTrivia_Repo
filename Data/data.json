@@ -77,11 +77,11 @@
             "a1":"Legend of Zelda: Oracle of Seasons",
             "a2":"Super Mario Brothers Deluxe",
             "a3": "Warioland 3",
-            "a4":"Pokémon Crystal",
+            "a4":"Pokemon Crystal",
             "c":"Legend of Zelda: Oracle of Seasons"
         },
         {
-            "Q": "Which of these Pokémon does not appear in 'Pokémon Sapphire'?",
+            "Q": "Which of these Pokemon does not appear in 'Pokemon Sapphire'?",
             "a1":"Nosepass",
             "a2":"Luvdisc",
             "a3":"Larvitar",
@@ -305,9 +305,9 @@
             "Q":"Which out of these games are NOT a DS game?",
             "a1":"Nintendogs",
             "a2":"Elite Beat Agents",
-            "a3":"Sonic Rush",
+            "a3":"Sonic Advance 4",
             "a4":"Bee Movie Game",
-            "c":"Bee Movie Game"
+            "c":"Sonic Advance 4"
         },
         {
             "Q":"In Warioware: Touched, Who DOESN'T uses the stylus dragging mechanic in their games?",
@@ -352,7 +352,7 @@
             "c":"Xenoblade Chronicles 3"
         },
         {
-            "Q":"What title character of a game released in January 2022 is the creator of the Pokémon world and master of the Creation Trio and the Lake Guardians?",
+            "Q":"What title character of a game released in January 2022 is the creator of the Pokemon world and master of the Creation Trio and the Lake Guardians?",
             "a1":"Azelf",
             "a2":"Snorlax",
             "a3":"Arceus",
