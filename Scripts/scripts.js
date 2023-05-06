@@ -129,6 +129,7 @@ function loadTrivia(html, questions) {
     timer--; // Decrement the count
     if (timer == 0) {
       timer = 15;
+      wrongSound.play();
       nextIndexQuestion();
       timerNum.innerText = timer;
       console.log(timer + " timer when");
