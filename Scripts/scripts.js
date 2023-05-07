@@ -15,7 +15,7 @@ function loadHTML(url) {
   fetch(url)
     .then((data) => data.text())
     .then((response) => {
-      url === "/HTML/titleScreen.html"
+      url === "/HTML/levelSelect.html"
         ? loadTitleScreen(response)
         : url === "/HTML/trivia.html" && level === 3
         ? loadTrivia(response, gbQuestions)
@@ -370,7 +370,7 @@ function loadHome(html){
   let play = document.getElementById('play');
 
   play.addEventListener('click', e => {
-    loadHTML('/HTML/titleScreen.html');
+    loadHTML('/HTML/levelSelect.html');
     bodyBG.classList.remove('homeBG');
   })
 }
