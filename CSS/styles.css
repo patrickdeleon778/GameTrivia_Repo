@@ -111,6 +111,12 @@ button:hover{
     background-size: cover;
 }
 
+.resultBG {
+    background-image: url('/Images/Wallpaper/animatedMario.gif');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
 h5 {
     background-color: rgba(102,187,82,255);
     border-radius: 15px;

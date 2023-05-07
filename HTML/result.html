@@ -1,15 +1,35 @@
 <div class="container">
-  <div class="row">
+    <div class="row">
+        <div class="col">
+            <img id="marioImg" src="/Images/mario died trimmed.png" alt="Mario Image" class="img-fluid" style="width: 1920px; height: 1080px; display: none">
+        </div>
+      </div>
+
       <div class="row">
           <div class="col d-flex justify-content-center mt-5"  style="font-size: 45px;">
-              <p class="welcome">Welcome to Nintendo Trivia!</p>
+              <p class="welcome">Congratulations!</p>
           </div>
       </div>
 
-      <div class="row" style="margin-top: 250px;">
-          <div class="col d-flex justify-content-center">
-              <button id="play" type="button" class="btn logo">Play Trivia</button>
-          </div>
+      <div class="row">
+        <div class="col d-flex justify-content-end mt-5 pe-4">
+            <p class="welcome d-flex justify-content-center align-items-center p-0 m-0" style="font-size: 30px;">You won: </p>
+        </div>
+        <div class="col d-flex justify-content-start mt-5">
+            <p class="welcome d-flex justify-content-center align-items-center p-0 m-0 ps-5" style="font-size: 30px;" id="totalCoins"></p>
+            <img id="coinImg" src="/Images/mario coin trimmed.png" alt="Coin Image" class="img-fluid" style="width: 100px; height: 100px;">
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 50px;">
+        <div class="col d-flex justify-content-center">
+            <button id="restart" type="button" class="btn logo">Restart</button>
+        </div>
+      </div>
+
+    <div class="row" style="margin-top: 50px;">
+      <div class="col d-flex justify-content-center">
+          <button id="exit" type="button" class="btn logo">Exit</button>
       </div>
   </div>
 </div>

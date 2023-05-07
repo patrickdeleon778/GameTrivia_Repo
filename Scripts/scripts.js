@@ -5,10 +5,13 @@ let bodyBG = document.getElementById('bodyBG');
 let gbQuestions = [];
 let dsQuestions = [];
 let switchQuestions = [];
+let usedQuestions = [];
 let timerInterval;
 let imageInterval;
 
 let level = 0;
+let currentIndex = 0;
+let score = 0;
 
 // console.log(bodyBG.classList);
 function loadHTML(url) {
@@ -127,12 +130,12 @@ function loadTitleScreen(html) {
 function loadTrivia(html, questions) {
   inject.innerHTML = html;
 
-  let score = 0;
+  // let score = 0;
   let totalQuestions = 20;
-  let currentIndex = 0;
+  // let currentIndex = 0;
   let timer = 20;
-  let newQuestions = questions;
-  let usedQuestions = [];
+  // let newQuestions = questions;
+  // let usedQuestions = [];
 
   let quest = document.getElementById("Q");
   let a1 = document.getElementById("a1");
@@ -291,6 +294,7 @@ function loadTrivia(html, questions) {
       timerNum.innerText = timer;
       timerNum.classList.remove('redFont');
       timerNum.classList.remove('fadeOut');
+      showMario()
       if(level == 2){
         timerNum.classList.add('dsAns');
       }
@@ -317,8 +321,8 @@ function loadTrivia(html, questions) {
 
   function correctAnswer(ans) {
     ans === usedQuestions[currentIndex].c && score++;
-    ans === usedQuestions[currentIndex].c ? correctSound.play() :
-                                            wrongSound.play();
+    ans === usedQuestions[currentIndex].c ? (correctSound.play(), showCoin()):
+                                            (wrongSound.play(), showMario());
     
     timer = 20;
     scoreNum.innerText = score;
@@ -329,16 +333,34 @@ function loadTrivia(html, questions) {
     currentIndex++;
     currentIndex < totalQuestions
       ? loadQuestions(usedQuestions)
-      : loadHTML("/HTML/result.html");
+      : (loadHTML("/HTML/result.html"), bodyBG.classList.add('resultBG'));
+      ;
+        // (level == 1) ? (switchBGM.pause(), switchBGM.playbackRate = 0)
+        // : (level == 2) ? (dsBGM.pause(), dsBGM.playbackRate = 0)
+        // : (level == 3) && (gbBGM.pause(), gbBGM.playbackRate = 0);
   }
+
+
+  // if(level === 1){
+  //   switchBGM.pause();
+  //   switchBGM.playbackRate = 0;
+  // }
+  // else if(level === 2){
+  //   dsBGM.pause();
+  //   dsBGM.playbackRate = 0;
+  // }
+  // else if(level === 3){
+  //   gbBGM.pause();
+  //   gbBGM.playbackRate = 0;
+  // }
 
   function randomQuestion() {
     let randomIndex;
     for (let i = 0; i < totalQuestions; i++) {
-      randomIndex = Math.floor(Math.random() * newQuestions.length);
-      const selectedQuestion = newQuestions[randomIndex];
+      randomIndex = Math.floor(Math.random() * questions.length);
+      const selectedQuestion = questions[randomIndex];
       usedQuestions.push(selectedQuestion);
-      newQuestions.splice(randomIndex, 1);
+      questions.splice(randomIndex, 1);
     }
   }
 }
@@ -377,8 +399,75 @@ function loadHome(html){
 
 function loadResults(html) {
   inject.innerHTML = html;
+  clearInterval(timerInterval);
+  usedQuestions = [];
+  switchQuestions = [];
+  gbQuestions = [];
+  dsQuestions = [];
+  getQuestions("/Data/data.json");
+
+  let resultBGM = document.getElementById('resultBGM');
+  let totalCoins = document.getElementById('totalCoins');
+
+  console.log(score);
+
+  totalCoins.innerText = score;
+
+  resultBGM.play();
+
+
+  (level == 1) ? (switchBGM.pause(), switchBGM.currentTime = 0 , bodyBG.classList.remove('switchBG'))
+    : (level == 2) ? (dsBGM.pause(), dsBGM.currentTime = 0 , bodyBG.classList.remove('dsBG'))
+    : (level == 3) && (gbBGM.pause(), gbBGM.currentTime = 0) , bodyBG.classList.remove('gbBG');
+
+  let restart = document.getElementById('restart');
+  let exit = document.getElementById('exit');
+
+  restart.addEventListener('click', e => {
+    loadHTML("/HTML/home.html");
+    score = 0;
+    currentIndex = 0;
+    bodyBG.classList.remove('resultBG');
+    bodyBG.classList.add('homeBG');
+  });
+
+  exit.addEventListener('click', e => {
+    showMario2();
+    wrongSound2.play();
+  })
+
 }
 
+function showCoin() {
+  let coinImg = document.getElementById("coinImg");
+  coinImg.style.display = "block";
+  coinImg.classList.add('slideUp')
+  setTimeout(function() {
+    coinImg.style.display = "none";
+    coinImg.classList.remove('slideUp');
+  }, 1000);
+}
+
+function showMario() {
+  let marioImg = document.getElementById("marioImg");
+  marioImg.style.display = "block";
+  marioImg.classList.add('slideDown')
+  setTimeout(function() {
+    marioImg.style.display = "none";
+    marioImg.classList.remove('slideDown');
+  }, 1000);
+}
+
+function showMario2() {
+  let marioImg = document.getElementById("marioImg");
+  marioImg.style.display = "block";
+  marioImg.classList.add('zoomer')
+  setTimeout(function() {
+    marioImg.style.display = "none";
+    marioImg.classList.remove('zoomer');
+  }, 1000);
+}
+let wrongSound2 = document.getElementById("wrongSound2");
 getQuestions("/Data/data.json");
 loadHTML("/HTML/home.html");
 // getQuestions('/Data/data.json');
