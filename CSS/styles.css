@@ -12,18 +12,29 @@ button:hover{
 }
 
 .logo {
-    font-family: 'Arial Black', sans-serif;
-    font-size: 72px;
-    text-transform: uppercase;
+    font-family: "Nintendo";
+    font-size: 60px;
+    /* text-transform: uppercase; */
     color: #fff;
     background-color: #e60012;
     padding: 20px;
     border-radius: 100px;
     border: 10px solid #fff;
-    text-shadow: 3px 3px #000;
+    /* text-shadow: 3px 3px #000; */
     display: inline-block;
   }
-
+.welcome {
+    font-family: "Nintendo";
+    font-size: px;
+    /* text-transform: uppercase; */
+    color: #fff;
+    /* background-color: #e60012; */
+    padding: 20px;
+    border-radius: 100px;
+    /* border: 10px solid #fff; */
+    /* text-shadow: 3px 3px #000; */
+    display: inline-block;
+}
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -47,6 +58,11 @@ button:hover{
 }
 .dsAns{
     background-color: rgba(125,207,255,255);
+    color: rgba(255,255,255,255);
+    border-radius: 10px;
+}
+.dsQuest{
+    background-color: lightgray;
     color: rgba(255,255,255,255);
     border-radius: 10px;
 }

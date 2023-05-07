@@ -202,16 +202,16 @@ function loadTrivia(html, questions) {
   else if(level === 2){
     bodyBG.classList.add('dsBG');
     quest.classList.add('dsAns');
-    a1.classList.add('dsAns');
-    a2.classList.add('dsAns');
-    a3.classList.add('dsAns');
-    a4.classList.add('dsAns');
+    a1.classList.add('dsQuest');
+    a2.classList.add('dsQuest');
+    a3.classList.add('dsQuest');
+    a4.classList.add('dsQuest');
     title.classList.add('dsAns');
     timerText.classList.add('dsAns');
     scoreText.classList.add('dsAns');
     timerNum.classList.add('dsAns');
     scoreNum.classList.add('dsAns');
-    title.innerText = "DS and 3DS Trivia"
+    title.innerText = "DS and 3DS Trivia";
   }
   else if(level === 3){
     bodyBG.classList.add('gbBG');
