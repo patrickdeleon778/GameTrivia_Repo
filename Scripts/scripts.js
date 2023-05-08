@@ -418,6 +418,8 @@ function loadResults(html) {
   dsQuestions = [];
   getQuestions("/Data/data.json");
 
+  let clicked = 0;
+
   let resultBGM = document.getElementById('resultBGM');
   let totalCoins = document.getElementById('totalCoins');
 
@@ -439,13 +441,22 @@ function loadResults(html) {
     loadHTML("/HTML/home.html");
     score = 0;
     currentIndex = 0;
+    clicked = 0;
     bodyBG.classList.remove('resultBG');
     bodyBG.classList.add('homeBG');
   });
 
   exit.addEventListener('click', e => {
-    showMario2();
-    wrongSound2.play();
+    clicked++;
+
+    if(clicked == 1){
+      bodyBG.classList.add('glitch-wrapper');
+      glitchScreen();
+    }
+    else{
+      showMario2();
+      wrongSound2.play();
+    }
   })
 
 }
@@ -483,3 +494,14 @@ let wrongSound2 = document.getElementById("wrongSound2");
 getQuestions("/Data/data.json");
 loadHTML("/HTML/home.html");
 // getQuestions('/Data/data.json');
+
+
+
+function glitchScreen() {
+  const wrapper = document.querySelector('.glitch-wrapper');
+  wrapper.classList.add('glitch');
+  
+  setTimeout(() => {
+    wrapper.classList.remove('glitch');
+  }, 1000);
+}
