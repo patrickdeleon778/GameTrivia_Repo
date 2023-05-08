@@ -87,6 +87,8 @@ button:hover{
     background-image: url('/Images/Wallpaper/749932.png');
     background-repeat: repeat;
     background-size: cover;
+    max-height: fit-content;
+    background-position: center;
 }
 .switchCart {
     background-color: white;

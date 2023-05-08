@@ -12,6 +12,7 @@ let imageInterval;
 let level = 0;
 let currentIndex = 0;
 let score = 0;
+let totalQuestions = 20;
 
 // console.log(bodyBG.classList);
 function loadHTML(url) {
@@ -56,6 +57,7 @@ function loadTitleScreen(html) {
   let gbSound = document.getElementById('gbSound');
   let dsSound = document.getElementById('dsSound');
   let switchSound = document.getElementById('switchSound');
+  switchSound.currentTime = 0.25; // Makes it so the switch sound plays a little faster after pressing level 1. Without it it will be delayed
 
   let gbBGM = document.getElementById('gbBGM');
   let dsBGM = document.getElementById('dsBGM');
@@ -131,7 +133,7 @@ function loadTrivia(html, questions) {
   inject.innerHTML = html;
 
   // let score = 0;
-  let totalQuestions = 20;
+  // let totalQuestions = 20;
   // let currentIndex = 0;
   let timer = 20;
   // let newQuestions = questions;
@@ -200,6 +202,16 @@ function loadTrivia(html, questions) {
 
   if(level === 1){
     bodyBG.classList.add('switchBG');
+    quest.classList.add('text-white');
+    a1.classList.add('text-white');
+    a2.classList.add('text-white');
+    a3.classList.add('text-white');
+    a4.classList.add('text-white');
+    title.classList.add('text-white');
+    timerText.classList.add('text-white');
+    scoreText.classList.add('text-white');
+    timerNum.classList.add('text-white');
+    scoreNum.classList.add('text-white');
     title.innerText = "Switch Trivia"
   }
   else if(level === 2){
@@ -325,7 +337,7 @@ function loadTrivia(html, questions) {
                                             (wrongSound.play(), showMario());
     
     timer = 20;
-    scoreNum.innerText = score;
+    scoreNum.innerText = score; 
     nextIndexQuestion();
   }
 
