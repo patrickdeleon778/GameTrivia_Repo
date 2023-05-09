@@ -135,7 +135,8 @@ function loadTrivia(html, questions) {
   // let score = 0;
   // let totalQuestions = 20;
   // let currentIndex = 0;
-  let timer = 20;
+  let questionCurrentNum = 1;
+  let timer = 20;                     // Moved all these so it'll become global. 
   // let newQuestions = questions;
   // let usedQuestions = [];
 
@@ -153,6 +154,8 @@ function loadTrivia(html, questions) {
   let correctSound = document.getElementById('correctSound');
   let wrongSound = document.getElementById('wrongSound');
   let outTime = document.getElementById('outTime');
+  let questionText = document.getElementById('questionText');
+  let questionNum = document.getElementById('questionNum');
 
   a1.addEventListener("click", e => {
     correctAnswer(e.target.innerText);
@@ -202,16 +205,6 @@ function loadTrivia(html, questions) {
 
   if(level === 1){
     bodyBG.classList.add('switchBG');
-    // quest.classList.add('text-white');
-    // a1.classList.add('text-white');
-    // a2.classList.add('text-white');
-    // a3.classList.add('text-white');
-    // a4.classList.add('text-white');
-    // title.classList.add('text-white');
-    // timerText.classList.add('text-white');
-    // scoreText.classList.add('text-white');
-    // timerNum.classList.add('dsAns');
-    // scoreNum.classList.add('text-white');
     title.innerText = "Switch Trivia"
   }
   else if(level === 2){
@@ -226,6 +219,8 @@ function loadTrivia(html, questions) {
     scoreText.classList.add('dsAns');
     timerNum.classList.add('dsAns');
     scoreNum.classList.add('dsAns');
+    questionText.classList.add('dsAns');
+    questionNum.classList.add('dsAns');
     title.innerText = "DS and 3DS Trivia";
   }
   else if(level === 3){
@@ -273,7 +268,7 @@ function loadTrivia(html, questions) {
                     console.log("This will error out if nothing works I guess"));
 
     timer == 10 && (outTime.play(), gbBGM.pause(), dsBGM.pause(), switchBGM.pause(),
-                    timerNum.classList.add('redFont'),
+                    timerNum.classList.add('redFont'), timerNum.classList.add('shake'),
                     level == 2 && timerNum.classList.remove('dsAns'));
 
     // if(timer == 10){
@@ -303,40 +298,40 @@ function loadTrivia(html, questions) {
     timer == 7 && level == 1 ? (switchBGM.play(), switchBGM.playbackRate = 1.5) : // resumes the BGM and switches the playbackRate to 1.5 to make sound like you're running out of time
     timer == 7 && level == 2 ? (dsBGM.play(), dsBGM.playbackRate = 1.5) : // resumes the BGM and switches the playbackRate to 1.5 to make sound like you're running out of time
     timer == 7 && level == 3 ? (gbBGM.play(), gbBGM.playbackRate = 1.5) : // resumes the BGM and switches the playbackRate to 1.5 to make sound like you're running out of time
-    console.log("Random stuff"); // random "else" statement because I didn't know how to do just else ifs in ternary
+    // console.log("Random stuff"); // random "else" statement because I didn't know how to do just else ifs in ternary
 
     // if(timer == 3){
     //   timerNum.classList.add('fadeOut');
     // }
     timer == 3 && timerNum.classList.add('fadeOut'); // fades the number out at 3 seconds left
 
-    // timer == 0 ? (timer == 20, wrongSound.play(), showMario(),
-    //               gbBGM.playbackRate = 1.0, dsBGM.playbackRate = 1.0, switchBGM.playbackRate = 1.0,
-    //               nextIndexQuestion(), timerNum.innerText = timer, timerNum.classList.remove('redFont'), timerNum.classList.remove('fadeOut'), console.log("Timer resets to: " + timer),
-    //               level == 2 && timerNum.classList.add('dsAns'))
+    timer == 0 ? (timer = 20, wrongSound.play(), showMario(),
+                  gbBGM.playbackRate = 1.0, dsBGM.playbackRate = 1.0, switchBGM.playbackRate = 1.0, // the play back rates reset back to 1.0 so it sounds normal again
+                  nextIndexQuestion(), timerNum.innerText = timer, timerNum.classList.remove('redFont'), timerNum.classList.remove('fadeOut'),timerNum.classList.remove('shake'), console.log("Timer resets to: " + timer),
+                  level == 2 && timerNum.classList.add('dsAns'))
 
-    //               : (timerNum.innerHTML = timer, console.log(timer));
+                  : (timerNum.innerHTML = timer, console.log(timer)); // the else statement
 
 
                   // Need to fix the ternary operator version of the timer == 0 portion
                     
-    if (timer == 0) {
-      timer = 20; // resets back to 20
-      wrongSound.play(); // wrong sound plays when you run out of time
-      gbBGM.playbackRate = 1.0; // the play back rates reset back to 1.0 so it sounds normal again
-      dsBGM.playbackRate = 1.0; // the play back rates reset back to 1.0 so it sounds normal again
-      switchBGM.playbackRate = 1.0; // the play back rates reset back to 1.0 so it sounds normal again
-      nextIndexQuestion(); // loads the next set of questions and answers
-      timerNum.innerText = timer; // this makes it so when it resets back to 20 seconds it will show 20 seconds instead of '1' second without this line of code
-      timerNum.classList.remove('redFont'); // removes the red font on the timer's number so it resets back to it's original colored font
-      timerNum.classList.remove('fadeOut'); // removes the fading class 
-      showMario() // Shows mario when you run out of time
-      console.log("Timer resets to: " + timer); // Logs timer reset to test if it works
-      (level == 2) && timerNum.classList.add('dsAns'); // this makes it so when it resets back to 20 seconds it won't be black font and will instead be white
-    } else {
-        timerNum.innerHTML = timer; // Counts down every second.
-        console.log(timer); // Logs the count down
-    }
+    // if (timer == 0) {
+    //   timer = 20; // resets back to 20
+    //   wrongSound.play(); // wrong sound plays when you run out of time
+    //   gbBGM.playbackRate = 1.0; // the play back rates reset back to 1.0 so it sounds normal again
+    //   dsBGM.playbackRate = 1.0; // the play back rates reset back to 1.0 so it sounds normal again
+    //   switchBGM.playbackRate = 1.0; // the play back rates reset back to 1.0 so it sounds normal again
+    //   nextIndexQuestion(); // loads the next set of questions and answers
+    //   timerNum.innerText = timer; // this makes it so when it resets back to 20 seconds it will show 20 seconds instead of '1' second without this line of code
+    //   timerNum.classList.remove('redFont'); // removes the red font on the timer's number so it resets back to it's original colored font
+    //   timerNum.classList.remove('fadeOut'); // removes the fading class 
+    //   showMario() // Shows mario when you run out of time
+    //   console.log("Timer resets to: " + timer); // Logs timer reset to test if it works
+    //   (level == 2) && timerNum.classList.add('dsAns'); // this makes it so when it resets back to 20 seconds it won't be black font and will instead be white
+    // } else {
+    //     timerNum.innerHTML = timer; // Counts down every second.
+    //     console.log(timer); // Logs the count down
+    // }
   }
 
 //============= Function that loads the questions on the trivia.html side ============//
@@ -363,8 +358,9 @@ function loadTrivia(html, questions) {
 //=========== Function that makes it load to the next question ===============//
   function nextIndexQuestion() {
     currentIndex++;
+    questionCurrentNum++;
     currentIndex < totalQuestions
-      ? loadQuestions(usedQuestions)
+      ? (loadQuestions(usedQuestions), questionNum.innerText = questionCurrentNum)
       : (loadHTML("/HTML/result.html"), bodyBG.classList.add('resultBG'));
       ;
         // (level == 1) ? (switchBGM.pause(), switchBGM.playbackRate = 0)
