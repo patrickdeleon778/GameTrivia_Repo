@@ -202,16 +202,16 @@ function loadTrivia(html, questions) {
 
   if(level === 1){
     bodyBG.classList.add('switchBG');
-    quest.classList.add('text-white');
-    a1.classList.add('text-white');
-    a2.classList.add('text-white');
-    a3.classList.add('text-white');
-    a4.classList.add('text-white');
-    title.classList.add('text-white');
-    timerText.classList.add('text-white');
-    scoreText.classList.add('text-white');
-    timerNum.classList.add('text-white');
-    scoreNum.classList.add('text-white');
+    // quest.classList.add('text-white');
+    // a1.classList.add('text-white');
+    // a2.classList.add('text-white');
+    // a3.classList.add('text-white');
+    // a4.classList.add('text-white');
+    // title.classList.add('text-white');
+    // timerText.classList.add('text-white');
+    // scoreText.classList.add('text-white');
+    // timerNum.classList.add('dsAns');
+    // scoreNum.classList.add('text-white');
     title.innerText = "Switch Trivia"
   }
   else if(level === 2){
@@ -245,81 +245,101 @@ function loadTrivia(html, questions) {
   function startTimer() {
     timer--; // Decrement the count
 
-    if(timer == 19){
-      timerNum.classList.remove('redFont');
-      timerNum.classList.remove('fadeOut');
-      gbBGM.playbackRate = 1.0;
-      dsBGM.playbackRate = 1.0;
-      switchBGM.playbackRate = 1.0;
-      outTime.pause();
-      outTime.currentTime = 0;
-      if(level == 1){
-        switchBGM.play();
-      }
-      else if(level == 2){
-        dsBGM.play();
-        timerNum.classList.add('dsAns');
-      }
-      else if(level == 3){
-        gbBGM.play();
-      }
-    }
-    if(timer == 10){
-      outTime.play();
-      gbBGM.pause();
-      dsBGM.pause();
-      switchBGM.pause();
-      timerNum.classList.add('redFont');
-      if(level == 2){
-        timerNum.classList.remove('dsAns');
-      }
-    }
+    // if(timer == 19){
+    //   timerNum.classList.remove('redFont');
+    //   timerNum.classList.remove('fadeOut');
+    //   gbBGM.playbackRate = 1.0;
+    //   dsBGM.playbackRate = 1.0;
+    //   switchBGM.playbackRate = 1.0;
+    //   outTime.pause();
+    //   outTime.currentTime = 0;
+    //   if(level == 1){
+    //     switchBGM.play();
+    //   }
+    //   else if(level == 2){
+    //     dsBGM.play();
+    //   }
+    //   else if(level == 3){
+    //     gbBGM.play();
+    //   }
+    // }
 
-    if(timer == 7 && level == 1){
-      // gbBGM.play();
-      // dsBGM.play();
-      switchBGM.play();
-      switchBGM.playbackRate = 1.5;
-      // dsBGM.playbackRate = 1.5;
-      // gbBGM.playbackRate = 1.5;
-    }
-    else if(timer == 7 && level == 2){
-      dsBGM.play();
-      dsBGM.playbackRate = 1.5;
-    }
-    else if(timer == 7 && level == 3){
-      gbBGM.play();
-      gbBGM.playbackRate = 1.5;
-    }
+    timer == 19 && (timerNum.classList.remove('redFont'), timerNum.classList.remove('fadeOut'),
+                    gbBGM.playbackRate = 1.0, dsBGM.playbackRate = 1.0, switchBGM.playbackRate = 1.0,
+                    outTime.pause(), outTime.currentTime = 0,
+                    level == 1 ? switchBGM.play() :
+                    level == 2 ? dsBGM.play() :
+                    level == 3 ? gbBGM.play() :
+                    console.log("This will error out if nothing works I guess"));
 
-    if(timer == 3){
-      timerNum.classList.add('fadeOut');
-    }
+    timer == 10 && (outTime.play(), gbBGM.pause(), dsBGM.pause(), switchBGM.pause(),
+                    timerNum.classList.add('redFont'),
+                    level == 2 && timerNum.classList.remove('dsAns'));
 
+    // if(timer == 10){
+    //   outTime.play();
+    //   gbBGM.pause();
+    //   dsBGM.pause();
+    //   switchBGM.pause();
+    //   timerNum.classList.add('redFont');
+    //   if(level == 2){
+    //     timerNum.classList.remove('dsAns');
+    //   }
+    // }
+
+    // if(timer == 7 && level == 1){
+    //   switchBGM.play();
+    //   switchBGM.playbackRate = 1.5;
+    // }
+    // else if(timer == 7 && level == 2){
+    //   dsBGM.play();
+    //   dsBGM.playbackRate = 1.5;
+    // }
+    // else if(timer == 7 && level == 3){
+    //   gbBGM.play();
+    //   gbBGM.playbackRate = 1.5;
+    // }
+
+    timer == 7 && level == 1 ? (switchBGM.play(), switchBGM.playbackRate = 1.5) : // resumes the BGM and switches the playbackRate to 1.5 to make sound like you're running out of time
+    timer == 7 && level == 2 ? (dsBGM.play(), dsBGM.playbackRate = 1.5) : // resumes the BGM and switches the playbackRate to 1.5 to make sound like you're running out of time
+    timer == 7 && level == 3 ? (gbBGM.play(), gbBGM.playbackRate = 1.5) : // resumes the BGM and switches the playbackRate to 1.5 to make sound like you're running out of time
+    console.log("Random stuff"); // random "else" statement because I didn't know how to do just else ifs in ternary
+
+    // if(timer == 3){
+    //   timerNum.classList.add('fadeOut');
+    // }
+    timer == 3 && timerNum.classList.add('fadeOut'); // fades the number out at 3 seconds left
+
+    // timer == 0 ? (timer == 20, wrongSound.play(), showMario(),
+    //               gbBGM.playbackRate = 1.0, dsBGM.playbackRate = 1.0, switchBGM.playbackRate = 1.0,
+    //               nextIndexQuestion(), timerNum.innerText = timer, timerNum.classList.remove('redFont'), timerNum.classList.remove('fadeOut'), console.log("Timer resets to: " + timer),
+    //               level == 2 && timerNum.classList.add('dsAns'))
+
+    //               : (timerNum.innerHTML = timer, console.log(timer));
+
+
+                  // Need to fix the ternary operator version of the timer == 0 portion
+                    
     if (timer == 0) {
-      timer = 20;
-      wrongSound.play();
-      gbBGM.playbackRate = 1.0;
-      dsBGM.playbackRate = 1.0;
-      switchBGM.playbackRate = 1.0;
-      nextIndexQuestion();
-      timerNum.innerText = timer;
-      timerNum.classList.remove('redFont');
-      timerNum.classList.remove('fadeOut');
-      showMario()
-      if(level == 2){
-        timerNum.classList.add('dsAns');
-      }
-      console.log(timer + " timer when");
+      timer = 20; // resets back to 20
+      wrongSound.play(); // wrong sound plays when you run out of time
+      gbBGM.playbackRate = 1.0; // the play back rates reset back to 1.0 so it sounds normal again
+      dsBGM.playbackRate = 1.0; // the play back rates reset back to 1.0 so it sounds normal again
+      switchBGM.playbackRate = 1.0; // the play back rates reset back to 1.0 so it sounds normal again
+      nextIndexQuestion(); // loads the next set of questions and answers
+      timerNum.innerText = timer; // this makes it so when it resets back to 20 seconds it will show 20 seconds instead of '1' second without this line of code
+      timerNum.classList.remove('redFont'); // removes the red font on the timer's number so it resets back to it's original colored font
+      timerNum.classList.remove('fadeOut'); // removes the fading class 
+      showMario() // Shows mario when you run out of time
+      console.log("Timer resets to: " + timer); // Logs timer reset to test if it works
+      (level == 2) && timerNum.classList.add('dsAns'); // this makes it so when it resets back to 20 seconds it won't be black font and will instead be white
     } else {
-        timerNum.innerHTML = timer;
-        console.log(timer);
+        timerNum.innerHTML = timer; // Counts down every second.
+        console.log(timer); // Logs the count down
     }
   }
 
-  // function buttonSounds(){
-  //   if
-  // }
+//============= Function that loads the questions on the trivia.html side ============//
   function loadQuestions(newQs) {
     clearInterval(timerInterval);
     timerInterval = setInterval(startTimer, 1000);
@@ -330,17 +350,17 @@ function loadTrivia(html, questions) {
     a3.innerText = newQs[currentIndex].a3;
     a4.innerText = newQs[currentIndex].a4;
   }
-
+//============= Checks to see if the answer is correct or wrong. Plays a different sound depending on the choice ========== //
   function correctAnswer(ans) {
     ans === usedQuestions[currentIndex].c && score++;
     ans === usedQuestions[currentIndex].c ? (correctSound.play(), showCoin()):
                                             (wrongSound.play(), showMario());
-    
+
     timer = 20;
     scoreNum.innerText = score; 
     nextIndexQuestion();
   }
-
+//=========== Function that makes it load to the next question ===============//
   function nextIndexQuestion() {
     currentIndex++;
     currentIndex < totalQuestions
@@ -348,7 +368,7 @@ function loadTrivia(html, questions) {
       : (loadHTML("/HTML/result.html"), bodyBG.classList.add('resultBG'));
       ;
         // (level == 1) ? (switchBGM.pause(), switchBGM.playbackRate = 0)
-        // : (level == 2) ? (dsBGM.pause(), dsBGM.playbackRate = 0)
+        // : (level == 2) ? (dsBGM.pause(), dsBGM.playbackRate = 0)      Random code that's commented out to test playbackrates
         // : (level == 3) && (gbBGM.pause(), gbBGM.playbackRate = 0);
   }
 
@@ -358,14 +378,14 @@ function loadTrivia(html, questions) {
   //   switchBGM.playbackRate = 0;
   // }
   // else if(level === 2){
-  //   dsBGM.pause();
+  //   dsBGM.pause();                   // Random code that's commented out to test playbackrates
   //   dsBGM.playbackRate = 0;
   // }
   // else if(level === 3){
   //   gbBGM.pause();
   //   gbBGM.playbackRate = 0;
   // }
-
+// ========= Grabs a random question each time ================ //
   function randomQuestion() {
     let randomIndex;
     for (let i = 0; i < totalQuestions; i++) {
@@ -376,7 +396,7 @@ function loadTrivia(html, questions) {
     }
   }
 }
-
+// =========== Grabs the questions and puts them in the correct array ============== //
 function getQuestions(url) {
   fetch(url)
     .then((data) => data.json())
@@ -397,7 +417,7 @@ function getQuestions(url) {
       // console.log(switchQuestions);
     });
 }
-
+//============= Loads the Home screen ================//
 function loadHome(html){
   inject.innerHTML = html;
   
@@ -409,34 +429,35 @@ function loadHome(html){
   })
 }
 
+//============ Loads the results at the end of the trivia game =================//
 function loadResults(html) {
   inject.innerHTML = html;
+  
+//=========== All of these are for the restart portion of the code ==========//
   clearInterval(timerInterval);
   usedQuestions = [];
   switchQuestions = [];
   gbQuestions = [];
   dsQuestions = [];
   getQuestions("/Data/data.json");
+  (level == 1) ? (switchBGM.pause(), switchBGM.currentTime = 0 , bodyBG.classList.remove('switchBG'))
+  : (level == 2) ? (dsBGM.pause(), dsBGM.currentTime = 0 , bodyBG.classList.remove('dsBG'))
+  : (level == 3) && (gbBGM.pause(), gbBGM.currentTime = 0) , bodyBG.classList.remove('gbBG');
 
-  let clicked = 0;
+
+  let clicked = 0; // Numbers of clicks
 
   let resultBGM = document.getElementById('resultBGM');
   let totalCoins = document.getElementById('totalCoins');
-
-  console.log(score);
-
-  totalCoins.innerText = score;
-
-  resultBGM.play();
-
-
-  (level == 1) ? (switchBGM.pause(), switchBGM.currentTime = 0 , bodyBG.classList.remove('switchBG'))
-    : (level == 2) ? (dsBGM.pause(), dsBGM.currentTime = 0 , bodyBG.classList.remove('dsBG'))
-    : (level == 3) && (gbBGM.pause(), gbBGM.currentTime = 0) , bodyBG.classList.remove('gbBG');
-
   let restart = document.getElementById('restart');
   let exit = document.getElementById('exit');
 
+  console.log(score);
+
+  totalCoins.innerText = score; // Shows total score at the end
+
+  resultBGM.play(); // Plays results BGM
+//=================== Restart event listener ====================//
   restart.addEventListener('click', e => {
     loadHTML("/HTML/home.html");
     score = 0;
@@ -460,8 +481,8 @@ function loadResults(html) {
   })
 
 }
-
-function showCoin() {
+//============ Shows coin image image when you get an answer right =============//
+function showCoin() { 
   let coinImg = document.getElementById("coinImg");
   coinImg.style.display = "block";
   coinImg.classList.add('slideUp')
@@ -470,7 +491,7 @@ function showCoin() {
     coinImg.classList.remove('slideUp');
   }, 1000);
 }
-
+//============ Shows Mario image image when you get an answer wrong =============//
 function showMario() {
   let marioImg = document.getElementById("marioImg");
   marioImg.style.display = "block";
@@ -481,7 +502,7 @@ function showMario() {
   }, 1000);
 }
 
-function showMario2() {
+function showMario2() { 
   let marioImg = document.getElementById("marioImg");
   marioImg.style.display = "block";
   marioImg.classList.add('zoomer')
@@ -490,14 +511,8 @@ function showMario2() {
     marioImg.classList.remove('zoomer');
   }, 1000);
 }
-let wrongSound2 = document.getElementById("wrongSound2");
-getQuestions("/Data/data.json");
-loadHTML("/HTML/home.html");
-// getQuestions('/Data/data.json');
 
-
-
-function glitchScreen() {
+function glitchScreen() { // Cool function I found to make it look like it's glitched but in reality it just wiggles a lot lol
   const wrapper = document.querySelector('.glitch-wrapper');
   wrapper.classList.add('glitch');
   
@@ -505,3 +520,10 @@ function glitchScreen() {
     wrapper.classList.remove('glitch');
   }, 1000);
 }
+
+let wrongSound2 = document.getElementById("wrongSound2");
+getQuestions("/Data/data.json");
+loadHTML("/HTML/home.html");
+// getQuestions('/Data/data.json');
+
+
