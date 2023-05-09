@@ -23,6 +23,10 @@ button:hover{
     /* text-shadow: 3px 3px #000; */
     display: inline-block;
   }
+
+.questionBorder {
+    border: 10px dotted black
+}
 .welcome {
     font-family: "Nintendo";
     font-size: px;
@@ -71,7 +75,7 @@ button:hover{
     border-radius: 10px;
 }
 .dsAns:hover {
-    background-color: rgba(125,207,255,255);
+    background-color: rgba(125,207,255,255); 
     color: white;
 }
 .dsAns:active {
@@ -86,6 +90,13 @@ button:hover{
     background-image: url('/Images/Wallpaper/Colorcard-hex_de0000-www.colorbook.io.png');
     background-repeat: repeat;
     background-size: cover;
+}
+
+.homeLogoCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .switchBG {
     background-image: url('/Images/Wallpaper/749932.png');
