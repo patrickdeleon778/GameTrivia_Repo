@@ -8,6 +8,7 @@ let switchQuestions = [];
 let usedQuestions = [];
 let timerInterval;
 let imageInterval;
+let questAnsInterval;
 
 let level = 0;
 let currentIndex = 0;
@@ -44,6 +45,7 @@ function loadTitleScreen(html) {
   // titleBGM.play();
 
   let imageTime = 0;
+  let correctAnsTime = 0;
   let chooseLvlText = document.getElementById('chooseLvlText');
 
   let lvl1 = document.getElementById("lvl1");
@@ -155,7 +157,7 @@ function loadTrivia(html, questions) {
   let wrongSound = document.getElementById('wrongSound');
   let outTime = document.getElementById('outTime');
   let questionText = document.getElementById('questionText');
-  let questionNum = document.getElementById('questionNum');
+  // let questionNum = document.getElementById('questionNum');
 
   a1.addEventListener("click", e => {
     correctAnswer(e.target.innerText);
@@ -220,7 +222,7 @@ function loadTrivia(html, questions) {
     timerNum.classList.add('dsAns');
     scoreNum.classList.add('dsAns');
     questionText.classList.add('dsAns');
-    questionNum.classList.add('dsAns');
+    // questionNum.classList.add('dsAns');
     title.innerText = "DS and 3DS Trivia";
   }
   else if(level === 3){
@@ -360,12 +362,22 @@ function loadTrivia(html, questions) {
     currentIndex++;
     questionCurrentNum++;
     currentIndex < totalQuestions
-      ? (loadQuestions(usedQuestions), questionNum.innerText = questionCurrentNum)
+      ? (loadQuestions(usedQuestions), questionText.innerText = 'Question: ' + questionCurrentNum)
       : (loadHTML("/HTML/result.html"), bodyBG.classList.add('resultBG'));
       ;
         // (level == 1) ? (switchBGM.pause(), switchBGM.playbackRate = 0)
         // : (level == 2) ? (dsBGM.pause(), dsBGM.playbackRate = 0)      Random code that's commented out to test playbackrates
         // : (level == 3) && (gbBGM.pause(), gbBGM.playbackRate = 0);
+  }
+
+  function displayCorrect(questAns){
+    
+  }
+
+  function correctAnsTimer(){
+    correctAnsTime++;
+
+    questAnsInterval = setInterval()
   }
 
 
