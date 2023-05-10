@@ -64,6 +64,7 @@ function loadTitleScreen(html) {
   let gbBGM = document.getElementById('gbBGM');
   let dsBGM = document.getElementById('dsBGM');
   let switchBGM = document.getElementById('switchBGM');
+  
 
   lvl1.addEventListener("click", e => {
     loadHTML("/HTML/trivia.html");
@@ -157,6 +158,7 @@ function loadTrivia(html, questions) {
   let wrongSound = document.getElementById('wrongSound');
   let outTime = document.getElementById('outTime');
   let questionText = document.getElementById('questionText');
+  let border = document.getElementById('border');
   // let questionNum = document.getElementById('questionNum');
 
   a1.addEventListener("click", e => {
@@ -222,6 +224,8 @@ function loadTrivia(html, questions) {
     timerNum.classList.add('dsAns');
     scoreNum.classList.add('dsAns');
     questionText.classList.add('dsAns');
+    border.classList.remove('questionBorder');
+    border.classList.add('questionBorderDS');
     // questionNum.classList.add('dsAns');
     title.innerText = "DS and 3DS Trivia";
   }
@@ -265,7 +269,7 @@ function loadTrivia(html, questions) {
                     gbBGM.playbackRate = 1.0, dsBGM.playbackRate = 1.0, switchBGM.playbackRate = 1.0,
                     outTime.pause(), outTime.currentTime = 0,
                     level == 1 ? switchBGM.play() :
-                    level == 2 ? dsBGM.play() :
+                    level == 2 ? (dsBGM.play(), timerNum.classList.add('dsAns')) :
                     level == 3 ? gbBGM.play() :
                     console.log("This will error out if nothing works I guess"));
 
@@ -349,14 +353,226 @@ function loadTrivia(html, questions) {
   }
 //============= Checks to see if the answer is correct or wrong. Plays a different sound depending on the choice ========== //
   function correctAnswer(ans) {
-    ans === usedQuestions[currentIndex].c && score++;
-    ans === usedQuestions[currentIndex].c ? (correctSound.play(), showCoin()):
-                                            (wrongSound.play(), showMario());
+    // ans === usedQuestions[currentIndex].c && score++;
+    // ans === usedQuestions[currentIndex].c ? (correctSound.play(), showCoin()) :  ///////// Uncomment line 356-358 AND line line 571-573 for the normal version of this function lol since I last minute edited this function 1 hour before class ended on 5/9/23
+    //                                         (wrongSound.play(), showMario());   ///////////////////////////////////////////// UNCOMMENT THIS AND COMMENT THE OTHER STUFF BELOW IT FOR A NORMAL VERSION OF THIS FUNCTION!!! THE MONSTROSITY OF THE CODE BELOW IS PRETTY DUMB lol
 
-    timer = 20;
-    scoreNum.innerText = score; 
-    nextIndexQuestion();
+
+    if(ans === usedQuestions[currentIndex].c){
+      score++;
+      correctSound.play();
+      showCoin();
+      if(usedQuestions[currentIndex].c === a1.innerText){
+        a1.style.color = 'green';
+        a2.style.color = 'red';
+        a3.style.color = 'red';
+        a4.style.color = 'red';
+        timer = 20;
+        clearInterval(timerInterval);
+        setTimeout(() => {
+          if(level == 1){
+            a1.style.color = 'black';
+            a2.style.color = 'black';
+            a3.style.color = 'black';
+            a4.style.color = 'black';
+          }else if(level == 2){
+            a1.style.color = 'white';
+            a2.style.color = 'white';
+            a3.style.color = 'white';
+            a4.style.color = 'white';
+          }else if(level == 3){
+            a1.style.color = 'black';
+            a2.style.color = 'black';
+            a3.style.color = 'black';
+            a4.style.color = 'black';
+          }
+          setTimeout(() => {
+            
+            scoreNum.innerText = score; 
+            nextIndexQuestion();
+          }, 100)
+        }, 1000)
+      }else if (usedQuestions[currentIndex].c === a2.innerText){
+        a1.style.color = 'red';
+        a2.style.color = 'green';
+        a3.style.color = 'red';
+        a4.style.color = 'red';
+        timer = 20;
+        clearInterval(timerInterval);
+        setTimeout(() => {
+          if(level == 1){
+            a1.style.color = 'black';
+            a2.style.color = 'black';
+            a3.style.color = 'black';
+            a4.style.color = 'black';
+          }else if(level == 2){
+            a1.style.color = 'white';
+            a2.style.color = 'white';
+            a3.style.color = 'white';
+            a4.style.color = 'white';
+          }else if(level == 3){
+            a1.style.color = 'black';
+            a2.style.color = 'black';
+            a3.style.color = 'black';
+            a4.style.color = 'black';
+          }
+          setTimeout(() => {
+            
+            scoreNum.innerText = score; 
+            nextIndexQuestion();
+          }, 100)
+        }, 1000)
+      }else if (usedQuestions[currentIndex].c === a3.innerText){
+        a1.style.color = 'red';
+        a2.style.color = 'red';
+        a3.style.color = 'green';
+        a4.style.color = 'red';
+        timer = 20;
+        clearInterval(timerInterval);
+        setTimeout(() => {
+          if(level == 1){
+            a1.style.color = 'black';
+            a2.style.color = 'black';
+            a3.style.color = 'black';
+            a4.style.color = 'black';
+          }else if(level == 2){
+            a1.style.color = 'white';
+            a2.style.color = 'white';
+            a3.style.color = 'white';
+            a4.style.color = 'white';
+          }else if(level == 3){
+            a1.style.color = 'black';
+            a2.style.color = 'black';
+            a3.style.color = 'black';
+            a4.style.color = 'black';
+          }
+          setTimeout(() => {
+            
+            scoreNum.innerText = score; 
+            nextIndexQuestion();
+          }, 100)
+
+        }, 1000)
+      }else if (usedQuestions[currentIndex].c === a4.innerText){
+        a1.style.color = 'red';
+        a2.style.color = 'red';
+        a3.style.color = 'red';
+        a4.style.color = 'green';
+        timer = 20;
+        clearInterval(timerInterval);
+        setTimeout(() => {
+          if(level == 1){
+            a1.style.color = 'black';
+            a2.style.color = 'black';
+            a3.style.color = 'black';
+            a4.style.color = 'black';
+          }else if(level == 2){
+            a1.style.color = 'white';
+            a2.style.color = 'white';
+            a3.style.color = 'white';
+            a4.style.color = 'white';
+          }else if(level == 3){
+            a1.style.color = 'black';
+            a2.style.color = 'black';
+            a3.style.color = 'black';
+            a4.style.color = 'black';
+          }
+          setTimeout(() => {
+            
+            scoreNum.innerText = score; 
+            nextIndexQuestion();
+          }, 100)
+        }, 1000)
+      }  
   }
+  else if(ans !== usedQuestions[currentIndex].c){
+    wrongSound.play();
+    showMario();
+    
+    if(usedQuestions[currentIndex].c !== a1.innerText){
+  
+        if(usedQuestions[currentIndex].c === a2.innerText){
+          a2.style.color = 'green';
+        }
+        else if(usedQuestions[currentIndex].c === a3.innerText){
+          a3.style.color = 'green';
+        }
+        else if(usedQuestions[currentIndex].c === a4.innerText){
+          a4.style.color = 'green';
+        }
+      timer = 20;
+      clearInterval(timerInterval);
+      setTimeout(() => {
+        if(level == 1){
+          a1.style.color = 'black';
+          a2.style.color = 'black';
+          a3.style.color = 'black';
+          a4.style.color = 'black';
+        }else if(level == 2){
+          a1.style.color = 'white';
+          a2.style.color = 'white';
+          a3.style.color = 'white';
+          a4.style.color = 'white';
+        }else if(level == 3){
+          a1.style.color = 'black';
+          a2.style.color = 'black';
+          a3.style.color = 'black';
+          a4.style.color = 'black';
+        }
+        setTimeout(() => {
+          
+          scoreNum.innerText = score; 
+          nextIndexQuestion();
+        }, 100)
+      }, 1000)
+    }
+    else if(usedQuestions[currentIndex].c !== a2.innerText){
+      
+        if(usedQuestions[currentIndex].c === a1.innerText){
+          a1.style.color = 'green';
+        }
+        else if(usedQuestions[currentIndex].c === a3.innerText){
+          a3.style.color = 'green';
+        }
+        else if(usedQuestions[currentIndex].c === a4.innerText){
+          a4.style.color = 'green';
+        }
+      timer = 20;
+      clearInterval(timerInterval);
+      setTimeout(() => {
+        if(level == 1){
+          a1.style.color = 'black';
+          a2.style.color = 'black';
+          a3.style.color = 'black';
+          a4.style.color = 'black';
+        }else if(level == 2){
+          a1.style.color = 'white';
+          a2.style.color = 'white';
+          a3.style.color = 'white';
+          a4.style.color = 'white';
+        }else if(level == 3){
+          a1.style.color = 'black';
+          a2.style.color = 'black';
+          a3.style.color = 'black';
+          a4.style.color = 'black';
+        }
+        setTimeout(() => {
+          
+          scoreNum.innerText = score; 
+          nextIndexQuestion();
+        }, 100)
+      }, 1000)
+    }
+}
+
+
+
+
+            // timer = 20;
+            // scoreNum.innerText = score; 
+            // nextIndexQuestion();
+}
+
 //=========== Function that makes it load to the next question ===============//
   function nextIndexQuestion() {
     currentIndex++;
@@ -370,15 +586,15 @@ function loadTrivia(html, questions) {
         // : (level == 3) && (gbBGM.pause(), gbBGM.playbackRate = 0);
   }
 
-  function displayCorrect(questAns){
+  // function displayCorrect(questAns){
     
-  }
+  // }
 
-  function correctAnsTimer(){
-    correctAnsTime++;
+  // function correctAnsTimer(){
+  //   correctAnsTime++;
 
-    questAnsInterval = setInterval()
-  }
+  //   questAnsInterval = setInterval()
+  // }
 
 
   // if(level === 1){
@@ -471,8 +687,11 @@ function loadResults(html) {
     score = 0;
     currentIndex = 0;
     clicked = 0;
+    resultBGM.pause();
     bodyBG.classList.remove('resultBG');
     bodyBG.classList.add('homeBG');
+    border.classList.add('questionBorder');
+    border.classList.remove('questionBorderDS');
   });
 
   exit.addEventListener('click', e => {
@@ -533,5 +752,4 @@ let wrongSound2 = document.getElementById("wrongSound2");
 getQuestions("/Data/data.json");
 loadHTML("/HTML/home.html");
 // getQuestions('/Data/data.json');
-
 

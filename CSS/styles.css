@@ -28,6 +28,12 @@ button:hover{
     border: 10px dashed black;
     margin: 0 10%;
 }
+
+.questionBorderDS {
+    border: 10px dashed white;
+    margin: 0 10%;
+}
+
 .welcome {
     font-family: "Nintendo";
     font-size: px;
